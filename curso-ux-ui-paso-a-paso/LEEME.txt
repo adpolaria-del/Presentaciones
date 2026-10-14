@@ -1,0 +1,9 @@
+ABRE EMPEZAR-AQUI.html
+
+1. Lee Empieza aquí.
+2. Pulsa Abrir pantalla para grabar.
+3. Elige una clase en la guía y sigue Haz, Di y Debes ver.
+
+La guía es para ti. PANTALLA-PARA-GRABAR.html es lo que verá el alumno.
+Mantén recursos en esta carpeta. No necesitas cuentas, Figma ni instalación.
+La web es una simulación local; no envía solicitudes reales.

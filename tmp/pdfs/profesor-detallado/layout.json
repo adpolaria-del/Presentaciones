@@ -1,0 +1,272 @@
+[
+  {
+    "page": 1,
+    "id": "p1",
+    "gap": 128
+  },
+  {
+    "page": 2,
+    "id": "p2",
+    "gap": 51
+  },
+  {
+    "page": 3,
+    "id": "p3",
+    "gap": 51
+  },
+  {
+    "page": 4,
+    "id": "p4",
+    "gap": 205
+  },
+  {
+    "page": 5,
+    "id": "clase-1-1",
+    "gap": 125
+  },
+  {
+    "page": 6,
+    "id": "cierre-1-1",
+    "gap": 90
+  },
+  {
+    "page": 7,
+    "id": "clase-1-2",
+    "gap": 178
+  },
+  {
+    "page": 8,
+    "id": "cierre-1-2",
+    "gap": 90
+  },
+  {
+    "page": 9,
+    "id": "clase-1-3",
+    "gap": 181
+  },
+  {
+    "page": 10,
+    "id": "cierre-1-3",
+    "gap": 109
+  },
+  {
+    "page": 11,
+    "id": "clase-1-4",
+    "gap": 162
+  },
+  {
+    "page": 12,
+    "id": "cierre-1-4",
+    "gap": 111
+  },
+  {
+    "page": 13,
+    "id": "clase-2-1",
+    "gap": 197
+  },
+  {
+    "page": 14,
+    "id": "cierre-2-1",
+    "gap": 145
+  },
+  {
+    "page": 15,
+    "id": "clase-2-2",
+    "gap": 215
+  },
+  {
+    "page": 16,
+    "id": "cierre-2-2",
+    "gap": 72
+  },
+  {
+    "page": 17,
+    "id": "clase-2-3",
+    "gap": 197
+  },
+  {
+    "page": 18,
+    "id": "cierre-2-3",
+    "gap": 144
+  },
+  {
+    "page": 19,
+    "id": "clase-2-4",
+    "gap": 162
+  },
+  {
+    "page": 20,
+    "id": "cierre-2-4",
+    "gap": 163
+  },
+  {
+    "page": 21,
+    "id": "clase-3-1",
+    "gap": 178
+  },
+  {
+    "page": 22,
+    "id": "cierre-3-1",
+    "gap": 145
+  },
+  {
+    "page": 23,
+    "id": "clase-3-2",
+    "gap": 181
+  },
+  {
+    "page": 24,
+    "id": "cierre-3-2",
+    "gap": 128
+  },
+  {
+    "page": 25,
+    "id": "clase-3-3",
+    "gap": 145
+  },
+  {
+    "page": 26,
+    "id": "cierre-3-3",
+    "gap": 144
+  },
+  {
+    "page": 27,
+    "id": "clase-3-4",
+    "gap": 198
+  },
+  {
+    "page": 28,
+    "id": "cierre-3-4",
+    "gap": 90
+  },
+  {
+    "page": 29,
+    "id": "clase-4-1",
+    "gap": 89
+  },
+  {
+    "page": 30,
+    "id": "cierre-4-1",
+    "gap": 92
+  },
+  {
+    "page": 31,
+    "id": "clase-4-2",
+    "gap": 178
+  },
+  {
+    "page": 32,
+    "id": "cierre-4-2",
+    "gap": 126
+  },
+  {
+    "page": 33,
+    "id": "clase-4-3",
+    "gap": 197
+  },
+  {
+    "page": 34,
+    "id": "cierre-4-3",
+    "gap": 53
+  },
+  {
+    "page": 35,
+    "id": "clase-4-4",
+    "gap": 161
+  },
+  {
+    "page": 36,
+    "id": "cierre-4-4",
+    "gap": 111
+  },
+  {
+    "page": 37,
+    "id": "clase-5-1",
+    "gap": 181
+  },
+  {
+    "page": 38,
+    "id": "cierre-5-1",
+    "gap": 128
+  },
+  {
+    "page": 39,
+    "id": "clase-5-2",
+    "gap": 163
+  },
+  {
+    "page": 40,
+    "id": "cierre-5-2",
+    "gap": 111
+  },
+  {
+    "page": 41,
+    "id": "clase-5-3",
+    "gap": 162
+  },
+  {
+    "page": 42,
+    "id": "cierre-5-3",
+    "gap": 126
+  },
+  {
+    "page": 43,
+    "id": "clase-5-4",
+    "gap": 198
+  },
+  {
+    "page": 44,
+    "id": "cierre-5-4",
+    "gap": 90
+  },
+  {
+    "page": 45,
+    "id": "clase-6-1",
+    "gap": 196
+  },
+  {
+    "page": 46,
+    "id": "cierre-6-1",
+    "gap": 180
+  },
+  {
+    "page": 47,
+    "id": "clase-6-2",
+    "gap": 44
+  },
+  {
+    "page": 48,
+    "id": "cierre-6-2",
+    "gap": 46
+  },
+  {
+    "page": 49,
+    "id": "clase-6-3",
+    "gap": 181
+  },
+  {
+    "page": 50,
+    "id": "cierre-6-3",
+    "gap": 108
+  },
+  {
+    "page": 51,
+    "id": "clase-6-4",
+    "gap": 196
+  },
+  {
+    "page": 52,
+    "id": "cierre-6-4",
+    "gap": 109
+  },
+  {
+    "page": 53,
+    "id": "p53",
+    "gap": 134
+  },
+  {
+    "page": 54,
+    "id": "p54",
+    "gap": 184
+  }
+]

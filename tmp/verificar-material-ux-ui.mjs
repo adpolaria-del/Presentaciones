@@ -1,0 +1,36 @@
+import pw from '/Users/josenicolassantiagomoreno/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright-core/index.js';
+import fs from 'node:fs';
+const root='/Users/josenicolassantiagomoreno/Documents/GitHub/Presentaciones';
+const out=root+'/tmp/pdfs/manual-profesor-ux-ui';
+const b=await pw.chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+const errors=[];
+try{
+ const p=await b.newPage({viewport:{width:1440,height:1000}});p.on('pageerror',e=>errors.push(e.message));
+ await p.goto('file://'+root+'/material-profesor-ux-ui/manual-profesor.html');await p.emulateMedia({media:'print'});
+ const layout=await p.locator('.page').evaluateAll(ps=>ps.map((x,i)=>({page:i+1,gap:Math.round(x.querySelector('.foot').getBoundingClientRect().top-x.querySelector('main').getBoundingClientRect().bottom)})));
+ console.log(JSON.stringify({layout}));
+ if(layout.some(x=>x.gap<12))throw new Error('Revisar espacio al pie');
+ await p.pdf({path:root+'/output/pdf/manual-profesor-ux-ui.pdf',format:'A4',printBackground:true,preferCSSPageSize:true,margin:{top:0,right:0,bottom:0,left:0}});
+ fs.copyFileSync(root+'/output/pdf/manual-profesor-ux-ui.pdf',root+'/material-profesor-ux-ui/manual-profesor.pdf');
+ await p.emulateMedia({media:'screen'});await p.goto('file://'+root+'/material-profesor-ux-ui/index.html');
+ if(await p.locator('#choose option').count()!==24)throw new Error('Faltan lecciones');
+ await p.locator('#choose').selectOption('23');if(!await p.locator('#slideId').textContent().then(x=>x.includes('6.4')))throw new Error('Selector');
+ await p.locator('#choose').selectOption('0');await p.screenshot({path:out+'/studio.png',fullPage:true});
+ await p.locator('#toggleNotes').click();if(!await p.locator('#notes').isVisible())throw new Error('Notas');await p.locator('#record').click();if(await p.locator('#notes').isVisible())throw new Error('Notas expuestas');await p.keyboard.press('ArrowRight');if(!await p.locator('#slideId').textContent().then(x=>x.includes('1.2')))throw new Error('Avance');await p.keyboard.press('Escape');
+ await p.locator('[data-tab="workshop"]').click();await p.locator('#calc').click();if(!await p.locator('#ratio').textContent().then(x=>x.includes('4.48:1')&&x.includes('normal AA: no cumple')))throw new Error('Contraste gris');
+ await p.locator('#fg').fill('#000000');await p.locator('#calc').click();if(!await p.locator('#ratio').textContent().then(x=>x.includes('21.00:1')))throw new Error('Contraste negro');
+ await p.locator('#fg').fill('error');await p.locator('#calc').click();if(!await p.locator('#ratio').textContent().then(x=>x.includes('seis')))throw new Error('Contraste invalid input');
+ await p.locator('#resetWorkshop').click();await p.locator('#blocks .down').first().click();if(await p.locator('#blocks h3').first().textContent()!=='Beneficios')throw new Error('Mover bloques');await p.locator('#resetWorkshop').click();if(await p.locator('#blocks h3').first().textContent()!=='Oferta')throw new Error('Reset');
+ await p.locator('#fg').fill('#173D36');await p.locator('#calc').click();await p.screenshot({path:out+'/taller.png',fullPage:true});
+ await p.locator('[data-tab="sheets"]').click();await p.locator('#sheet').fill('Prueba de descarga');const d=p.waitForEvent('download');await p.locator('#downloadSheet').click();const download=await d;await download.saveAs(out+'/descarga-prueba.txt');if(fs.readFileSync(out+'/descarga-prueba.txt','utf8')!=='Prueba de descarga')throw new Error('Descarga');
+ await p.goto('file://'+root+'/material-profesor-ux-ui/caso-mejorado.html');
+ await p.locator('#send').click();if(await p.locator('#name-error').textContent()==='')throw new Error('Required');if(await p.evaluate(()=>document.activeElement.id)!=='name')throw new Error('Foco error');
+ await p.locator('#name').fill('Ana');await p.locator('#email').fill('invalido');await p.locator('#send').click();if(await p.locator('#email-error').textContent()==='')throw new Error('Email validation');if(await p.locator('#name').inputValue()!=='Ana')throw new Error('Datos perdidos');
+ await p.locator('#email').fill('ana@example.com');await p.locator('#send').click();if(!await p.locator('#feedback').textContent().then(x=>x.includes('Enviando')))throw new Error('Pending');await p.locator('#again').waitFor({state:'visible'});if(!await p.locator('#feedback').textContent().then(x=>x.includes('recibida')))throw new Error('Confirmation');
+ await p.locator('#again').click();if(await p.locator('#name').inputValue()!=='')throw new Error('Reset form');
+ await p.screenshot({path:out+'/caso-escritorio.png',fullPage:true});await p.setViewportSize({width:390,height:844});
+ if(await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth))throw new Error('Mobile overflow');await p.screenshot({path:out+'/caso-movil.png',fullPage:true});
+ await p.goto('file://'+root+'/material-profesor-ux-ui/caso-inicial.html');await p.locator('button[type=submit]').click();if(await p.locator('#msg').textContent()!=='Error 01')throw new Error('Caso inicial error');await p.locator('#bname').fill('Ana');await p.locator('#bemail').fill('ana@example.com');await p.locator('button[type=submit]').click();if(await p.locator('#msg').textContent()!=='OK')throw new Error('Caso inicial exito');
+ if(errors.length)throw new Error(errors.join('\n'));
+ console.log(JSON.stringify({checks:'24 pantallas, notas, modo grabacion, contraste, orden, reinicio, descarga, errores, foco, envio simulado, confirmacion, movil, caso inicial',pageErrors:errors}));
+}finally{await b.close();}

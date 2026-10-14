@@ -1,0 +1,16 @@
+MATERIAL DEL PROFESOR · UX/UI APLICADO A PÁGINAS WEB
+
+1. Abre manual-profesor.pdf para preparar cada lección.
+2. Abre index.html en un navegador; conserva todos los HTML en esta carpeta.
+3. Lección: selecciona una de las 24 pantallas. Las notas docentes se pueden mostrar u ocultar.
+4. Modo grabación oculta cabecera y notas; Esc lo cierra. En Lección, flechas izquierda/derecha cambian de pantalla.
+5. Caso: compara versiones y anchos; abre en una pestaña separada para grabar solo el ejemplo.
+6. Taller: edita textos, mueve tarjetas y usa los controles visuales y de contraste. Captura el resultado antes de cerrar; no se guarda.
+7. Fichas: completa y descarga tus notas antes de cerrar. También puedes copiar fichas-alumno.txt.
+
+El caso FARO es ficticio. Los formularios simulan solicitudes y NO envían ni guardan datos. Usa Ana y ana@example.com.
+Los casos y apoyos funcionan sin conexión, sin cuentas y sin dependencias externas. Los enlaces de referencias requieren internet.
+La guía contiene guiones de explicación y una pauta de demostración, no una transcripción literal de 4 horas. Los tiempos son planificados y deben ajustarse con un piloto.
+El contenido editable está en manual-profesor.html y lecciones-profesor.json.
+
+control-grabacion.csv contiene las 24 lecciones para registrar tomas, estado y duración real.

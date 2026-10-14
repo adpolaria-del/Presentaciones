@@ -1,0 +1,362 @@
+[
+  {
+    "id": "1.1",
+    "opening": "Bienvenido. Vamos a empezar con una pregunta: ¿una página que se ve bien necesariamente se entiende bien? Voy a mostrarte dos versiones de la misma web. No necesitas saber diseñar ni programar. Primero miraremos qué aparece en pantalla y después intentaremos completar una tarea: pedir información sobre un servicio.",
+    "extras": [
+      "Mira el título y pregúntate qué podrías contratar aquí. «Potencial» puede hablar de muchas cosas. Este es un buen punto de partida: antes de valorar colores o fotografías, necesito entender la oferta. Por ahora estamos señalando una posible dificultad; todavía no hemos observado a un usuario real.",
+      "Fíjate en «Dato 1». ¿Pide mi nombre, mi empresa o un número? Yo conozco el ejercicio, pero alguien que entra por primera vez no tiene esa información. El botón funciona y, aun así, la tarea puede resultar confusa. Funcionar técnicamente no basta para que algo sea fácil de usar.",
+      "Cuando digo UI, me refiero a la interfaz: los textos, campos, botones y su presentación. Cuando digo UX, hablo de la experiencia de la persona al intentar lograr algo. En este caso nos preguntamos si comprende el servicio, sabe cómo solicitarlo y entiende la respuesta.",
+      "Señalo «Nombre» y «Correo» porque ahora cada campo me orienta. El color y el tamaño permiten distinguirlo, mientras que la etiqueta explica su función. No estamos separando dos trabajos que nunca se tocan: una decisión sobre la interfaz puede facilitar o dificultar la experiencia.",
+      "Si presentara esta mejora a un cliente, explicaría el cambio así: antes la oferta era difícil de identificar; ahora el título dice para qué sirve la asesoría. Este razonamiento es más útil que decir solamente «la nueva versión me gusta». Después podremos comprobar si otras personas la entienden."
+    ],
+    "answer": "Una respuesta posible es: «Veo un botón y dos campos; la dificultad es que Dato 1 no explica qué debo escribir». El botón es un elemento de interfaz. La duda al intentar usarlo forma parte de la experiencia. Puedes encontrar otros ejemplos y explicarlos del mismo modo.",
+    "close": "Quédate con esta idea: diseñamos lo que aparece en pantalla para ayudar a una persona a lograr algo. En la siguiente clase vamos a distinguir tres preguntas: si le sirve, si resulta fácil y si puede utilizarlo.",
+    "extra": "Antes de cerrar, señala «Más» y pregunta en voz alta: «¿Más de qué?». Después señala «Solicitar asesoría». Explica qué acción anticipa cada texto, sin volver a repetir toda la comparación.",
+    "trouble": "Si «Más» no desplaza la página, comprueba que estás en «1. Página web» y «Versión inicial». El botón verde de «Editar diseño» es texto editable y no abre el formulario."
+  },
+  {
+    "id": "1.2",
+    "opening": "Ahora vamos a revisar tres cosas diferentes: utilidad, usabilidad y accesibilidad. Para no quedarnos en definiciones, utilizaremos el mismo formulario. Imagina que necesitas información del servicio. Vamos a mirar si esta página te ayuda con esa necesidad y qué obstáculos aparecen cuando intentas usarla.",
+    "extras": [
+      "Piensa en utilidad como «esto responde a lo que necesito». Si busco una asesoría, una página que explica el servicio y permite preguntar puede ser útil. Después aparece otra pregunta: ¿puedo conseguirlo de una manera comprensible? Esa segunda pregunta nos acerca a la usabilidad.",
+      "Escribo un correo porque ya sé qué espera el ejercicio. Pero ese conocimiento lo estoy aportando yo, no la interfaz. Cuando revises una web, intenta notar cuántas decisiones dependen de información que el visitante no tiene. Una etiqueta puede evitar esa duda antes de que aparezca.",
+      "Accesibilidad significa tener en cuenta diferentes capacidades y maneras de interactuar. Aquí vamos a comprobar algunas cosas sencillas: que el texto se perciba y que los controles puedan recorrerse con teclado. Son ejemplos iniciales; no constituyen una evaluación completa de accesibilidad.",
+      "Observa que el contorno cambia de lugar cada vez que pulso Tab. Ese indicador se llama foco y muestra qué control recibirá la próxima acción. Mantén la vista en él, no en el cursor del ratón. Si no pudiera verlo, sería difícil saber dónde estoy al navegar así.",
+      "Acabo de retroceder con el teclado. No he necesitado volver a buscar el campo con el ratón. Podemos revisar la misma tarea desde varias preguntas: ¿me sirve?, ¿entiendo qué hacer?, ¿puedo percibir y operar sus controles? Ninguna de las tres se resuelve solo con una apariencia agradable."
+    ],
+    "answer": "Puedes escribir: «Dato 2 es confuso porque no dice que pide un correo; un texto pequeño o poco contrastado puede dificultar su lectura». Señala el elemento concreto. Evita concluir que toda la página es inaccesible a partir de una única observación.",
+    "close": "Hoy comprobamos que ofrecer una función es solo el inicio. También debemos explicar cómo usarla y considerar distintas formas de interacción. Enseguida vamos a definir con más precisión qué necesita hacer el visitante.",
+    "extra": "Repite el recorrido por dos campos: pulsa Tab para avanzar y Shift + Tab para volver. Nombra el campo que tiene el contorno antes de mover el foco otra vez.",
+    "trouble": "Si Tab recorre controles de la barra superior, haz clic dentro del formulario y vuelve a pulsarlo. Mantén la ventana activa. Si tu navegador no enfoca ciertos enlaces, revisa su configuración de navegación por teclado antes de grabar."
+  },
+  {
+    "id": "1.3",
+    "opening": "Antes de elegir tamaños o colores, necesitamos un objetivo. Voy a utilizar la pestaña «Escribir un ejemplo» como una pizarra. Lo que anote aquí no cambia la web: nos ayuda a dejar claro para quién diseñamos, qué necesita hacer esa persona y cómo sabremos si la propuesta se entiende.",
+    "extras": [
+      "«Moderna» describe una preferencia, pero dos personas podrían imaginar cosas distintas. Necesito convertir ese pedido en algo que pueda orientar decisiones. No voy a borrar la intención de que se vea bien; voy a añadir el problema que debe resolver para que podamos diseñar con un propósito.",
+      "En nuestro caso, el visitante necesita saber si el servicio encaja con su situación. Después necesita una forma de preguntar. Fíjate en que estoy hablando de la persona y su tarea, no del número de botones. El objetivo del negocio, recibir consultas, se conecta con esa necesidad.",
+      "Ahora sí puedo decidir qué acción debe destacar. Podría poner diez botones, pero primero necesito saber qué paso quiero facilitar. «Solicitar una conversación inicial» define un resultado concreto. Más adelante revisaremos que el texto del botón y la respuesta del formulario sean coherentes con ese resultado.",
+      "Voy a observar dos cosas: si alguien puede explicar la oferta con sus palabras y si llega a la confirmación. Eso no demuestra todo sobre la experiencia, pero es más concreto que una impresión estética. Así dejamos preparada una comprobación que retomaremos cuando hagamos la prueba.",
+      "Mira cómo se relacionan ambos materiales: la pizarra contiene el objetivo y la página muestra una decisión que lo apoya. No se ha generado un botón automáticamente por escribir. Estamos conectando nuestro razonamiento con una interfaz preparada para demostrarlo."
+    ],
+    "answer": "Para Faro, podrías escribir: «La persona necesita saber si la asesoría le ayuda a organizar sus consultas; su acción principal será pedir información». Para tu proyecto cambia la necesidad y la acción, pero conserva esa relación. «Necesita una web bonita» todavía no describe la tarea del visitante.",
+    "close": "Ya tenemos una dirección para el diseño: una persona, una necesidad y una acción. En la siguiente clase veremos cómo ese objetivo pasa a un esquema, una interfaz y una prueba.",
+    "extra": "Vuelve a la pizarra y lee la necesidad y la acción seguidas. Pregunta: «¿Esta acción ayuda a resolver esa necesidad?». Explica la relación usando las palabras que acabas de escribir.",
+    "trouble": "Si aparecen notas de otra clase, selecciona 1.3 en «Ejemplo de la clase». Si ya escribiste algo que quieres conservar, pulsa «Guardar lo que escribí» antes de cargar de nuevo la plantilla."
+  },
+  {
+    "id": "1.4",
+    "opening": "Vamos a recorrer el proceso completo de manera sencilla. Primero entendemos qué se necesita; después organizamos el contenido; luego trabajamos su presentación, probamos el recorrido y mejoramos. Hoy verás los materiales que utilizaremos en esas etapas. No tienes que construirlos desde cero para seguir el curso.",
+    "extras": [
+      "Un wireframe es un boceto de estructura. En este taller, las tarjetas nos permiten discutir qué información debería aparecer y con qué orden. Todavía no estamos resolviendo todos los detalles visuales. Si no sabemos qué cuenta cada sección, decorarla no corrige esa falta de contenido.",
+      "Al mover Oferta, cambia lo que aparece primero. Imagina que la persona encuentra el contacto antes de entender el servicio. Tal vez necesite volver atrás para resolver una duda. Por eso cada movimiento debe responder a una razón; ordenar también es una decisión de experiencia.",
+      "Ahora cambia el nivel de detalle. Ya podemos ver cómo se presenta el contenido en una interfaz. La estructura nos ayudó a decidir qué contar; los textos, espacios y controles nos ayudan a mostrarlo. El boceto y esta página están preparados por separado para enseñar esa diferencia.",
+      "Cuando envío, puedo observar estados y una respuesta. Eso permite conversar sobre la interacción y no únicamente sobre una imagen estática. Es una demostración local: no estamos contratando un servicio ni enviando información a una empresa. Usamos datos ficticios para repetir el recorrido.",
+      "El proceso no termina cuando la página ya se ve terminada. Si al probarla aparece una duda, podemos volver al texto, a la estructura o al comportamiento. No hace falta defender una decisión solo porque ya la dibujamos; podemos revisarla con un motivo."
+    ],
+    "answer": "Una respuesta razonable es empezar por el objetivo y el orden del contenido, porque antes de elegir un color necesito saber qué voy a comunicar. Luego puedo desarrollar la presentación y probar la interacción. El proceso puede repetirse: una prueba puede hacerme volver a organizar.",
+    "close": "Ya reconoces tres materiales: el esquema para organizar, la interfaz para presentar y la simulación para probar acciones. Ahora vamos a profundizar en las preguntas que necesitamos responder antes de ordenar la página.",
+    "extra": "Alterna una vez entre «Editar diseño» y «Página web». Nombra qué pregunta responde cada vista: «¿qué contenido va y en qué orden?» frente a «¿cómo se presenta y cómo se usa?».",
+    "trouble": "Si el envío se queda en error, comprueba que usaste Ana y ana@example.com. Espera a que aparezca la confirmación antes de pulsar «Nueva demostración»."
+  },
+  {
+    "id": "2.1",
+    "opening": "Vamos a preparar preguntas para entender a quien visitará la página. Lo primero es separar lo que sabemos de lo que suponemos. En la pizarra hay un dato del caso: Faro ofrece una conversación inicial de treinta minutos. A partir de ahí veremos qué tendríamos que preguntar a personas reales.",
+    "extras": [
+      "Este dato forma parte del ejercicio y nos permite trabajar con el mismo servicio. No proviene de una entrevista que acabemos de hacer. Esa diferencia importa: cuando documentes un proyecto, identifica de dónde sale cada afirmación para que nadie confunda una condición del negocio con una conclusión sobre sus usuarios.",
+      "Yo puedo creer que «asesoría» se entiende, pero necesito comprobarlo. Escribir la suposición me ayuda a reconocer qué desconozco. No es un error tener hipótesis; el problema sería presentarlas como hechos y diseñar todo el recorrido sin revisar si son razonables.",
+      "La palabra «clara» ya contiene mi valoración. Si pregunto así, estoy sugiriendo qué respuesta espero. Además, que alguien diga que le gusta no me explica cómo hizo una tarea. Voy a cambiar la pregunta para escuchar una experiencia en lugar de pedir aprobación.",
+      "Esta pregunta invita a relatar algo que ocurrió. Después podríamos profundizar: qué buscó, qué no encontró y qué hizo para continuar. No estoy pidiendo que invente la interfaz ideal. Estoy buscando información que nos ayude a comprender sus necesidades y su contexto.",
+      "Si aparece repetidamente una duda sobre el alcance, probablemente debamos explicarlo mejor en la página. Aquí todavía no tenemos respuestas reales, así que no vamos a inventarlas. Solo estamos preparando preguntas que después podremos utilizar y registrar."
+    ],
+    "answer": "Puedes preguntar: «Cuéntame la última vez que pediste información sobre un servicio» y «¿Qué necesitaste saber antes de contactar?». Las dos permiten describir una experiencia. Una pregunta como «¿No te parece fácil?» ya sugiere una valoración y aporta menos información.",
+    "close": "Tenemos un dato, una suposición y preguntas para aprender. El siguiente paso será organizar las dudas que pueden aparecer a lo largo del recorrido, sin confundir posibilidades con resultados de investigación.",
+    "extra": "Lee la pregunta que evitarías con tono de aprobación y después la pregunta abierta con tono neutral. Explica cómo cambia el espacio que le das a la otra persona para responder.",
+    "trouble": "No completes la pizarra con respuestas atribuidas a usuarios inexistentes. Si quieres ilustrar una respuesta, di expresamente «voy a inventar una respuesta para explicar el ejercicio»."
+  },
+  {
+    "id": "2.2",
+    "opening": "Una persona no entra a una web pensando en nuestras secciones. Suele llegar con preguntas: qué ofrecen, si le sirve y qué debe hacer. Vamos a ordenar esas preguntas para entender el recorrido. Después comprobaremos dónde encuentra una respuesta en la página del ejemplo.",
+    "extras": [
+      "La primera duda aparece antes de completar ningún formulario. Si no sé qué ofrece la empresa, es difícil decidir si quiero contactar. Escribo la pregunta tal como podría formularla un visitante. Eso nos ayuda a diseñar contenido con una función concreta.",
+      "Estas cuatro etapas describen lo que necesita comprender la persona. No significan que todos actuarán siempre en este orden, pero nos permiten revisar el ejemplo. Observa que después de enviar también existe una pregunta: necesito saber si mi solicitud llegó y qué sucede a continuación.",
+      "Voy a buscar la duración con la mirada y bajando por la página. No aparece una explicación suficiente. Esto podría generar una duda: quizá la persona necesita saber cuánto tiempo le tomará antes de solicitar. Señalamos la ausencia y su posible efecto, sin inventar cuántos visitantes abandonarían.",
+      "Ahora la sección ofrece información para responder a esa duda. No hemos añadido contenido por llenar espacio; lo añadimos para ayudar a decidir. Conecta cada frase con la pregunta correspondiente: qué pasa al enviar, cuándo hay respuesta y cuál es el alcance de la conversación.",
+      "Una fricción es algo que dificulta avanzar. Puede ser una etiqueta confusa, una respuesta ausente o un paso inesperado. Aquí registramos una posibilidad para revisarla. Cuando observemos una prueba, podremos añadir hechos sobre lo que ocurrió realmente."
+    ],
+    "answer": "Un ejemplo es: «¿Enviar este formulario ya reserva una cita?». Esa duda debería tener una respuesta cerca del momento de solicitar. También podrías preguntar por duración o alcance. Lo importante es indicar qué necesita saber la persona y dónde esperaría encontrarlo.",
+    "close": "El recorrido nos ayuda a organizar información alrededor de preguntas. En la próxima clase vamos a convertir esas preguntas en nombres y posiciones de secciones que ayuden a orientarse.",
+    "extra": "En la versión mejorada, señala «Así funciona» y después la respuesta a «¿Ya queda reservada una hora?» en las preguntas frecuentes. Explica qué información describe el servicio y cuál aclara lo que ocurrirá después de solicitar.",
+    "trouble": "Si estás en vista móvil y el contenido queda muy estrecho, pulsa «Escritorio» para esta comparación. La vista móvil se trabajará de manera específica más adelante."
+  },
+  {
+    "id": "2.3",
+    "opening": "Arquitectura de la información significa organizar y nombrar el contenido para que se pueda encontrar y comprender. Vamos a demostrarlo con cinco tarjetas. Cambiaremos una posición y un nombre; después explicaremos por qué esas decisiones pueden facilitar o dificultar el recorrido.",
+    "extras": [
+      "Observa que Contacto aparece ahora después de Oferta. No significa que ese orden siempre esté mal. La pregunta es si aquí la persona ya tiene lo necesario para decidir. En nuestro ejemplo todavía puede necesitar conocer alcance y condiciones; por eso revisamos dónde situamos cada bloque.",
+      "Estamos proponiendo un recorrido para este caso, no una plantilla universal para todas las webs. Un visitante que ya conoce el servicio puede ir directo al contacto, pero alguien nuevo debe poder encontrar la explicación. La estructura y los accesos rápidos pueden atender ambos casos.",
+      "«Nuestro universo» suena creativo, pero no me permite anticipar el contenido. Si buscara los pasos del servicio, tendría que abrir o leer para descubrirlo. El nombre de una sección actúa como una señal: debe orientar antes de pedir más esfuerzo.",
+      "Con «Cómo funciona» la promesa es más concreta. Estoy diciendo qué tipo de información habrá en ese bloque. Así puedo comprobar también si el contenido cumple la promesa. Si dentro hubiera solo testimonios, el nombre y la información no estarían alineados.",
+      "Lee conmigo: oferta, beneficios, proceso, dudas y contacto. Cada bloque debería responder una pregunta distinta. Si dos secciones dicen lo mismo, podemos revisar si conviene unirlas. Si falta una duda importante, tendremos que encontrar dónde responderla."
+    ],
+    "answer": "Podrías ordenar Oferta, Beneficios, Cómo funciona, Preguntas frecuentes y Contacto. La justificación sería explicar primero el servicio y sus condiciones, resolver dudas y facilitar la solicitud. Otro orden puede ser válido si explicas cómo ayuda a la tarea de tu visitante.",
+    "close": "Hoy vimos que mover y nombrar contenido también es diseñar. Ahora vamos a completar ese esquema con textos concretos para evitar que se quede en una colección de cajas sin significado.",
+    "extra": "Señala una tarjeta y pregunta: «Si tapara su contenido y dejara solo el título, ¿sabría qué voy a encontrar?». Responde con «Cómo funciona» y con «Nuestro universo».",
+    "trouble": "Pulsa el botón «Subir» de la tarjeta Contacto, no el de otra tarjeta. Si pierdes el orden, usa «Reiniciar taller» y vuelve a mover Contacto tres posiciones."
+  },
+  {
+    "id": "2.4",
+    "opening": "Vamos a construir el contenido básico del boceto. Escribiremos qué ofrece Faro, qué incluye la conversación y qué acción esperamos del visitante. El objetivo de este ejercicio es que la estructura ya diga algo útil antes de preocuparnos por todos los detalles visuales.",
+    "extras": [
+      "Este título permite reconocer un servicio y una necesidad. No tiene que explicar absolutamente todo, pero sí dar una dirección. Mientras escribes el tuyo, pregúntate si alguien que no conoce tu negocio podría explicar de qué trata la página después de leerlo.",
+      "La descripción añade precisión: qué revisamos y durante cuánto tiempo. Cada frase tiene un trabajo diferente. El título orienta; el apoyo concreta. Evita prometer un resultado que no está incluido en el servicio, porque una expectativa incorrecta también afecta la experiencia.",
+      "CTA significa llamada a la acción. No es simplemente un rectángulo de color: su texto ayuda a anticipar qué ocurrirá. Aquí estoy editando las palabras del boceto. Este botón no envía nada; la interacción de envío la veremos en la pestaña Página web.",
+      "En Oferta escribiré la función del bloque. En un proyecto real desarrollaríamos después el contenido completo, pero primero conviene saber qué pregunta responde. Una tarjeta puede estar perfectamente alineada y seguir siendo inútil si no sabemos qué información debe contener.",
+      "El cierre del recorrido necesita explicar los datos y el siguiente paso. No basta con decir «Contacto» y dibujar dos campos. Al dejar escrito qué incluirá, preparo una conversación sobre el formulario antes de construir su comportamiento."
+    ],
+    "answer": "Para Faro: «Asesoría para organizar tus consultas»; «Revisamos cómo recibes consultas en una conversación inicial de 30 minutos»; «Solicitar conversación». El título orienta, la descripción concreta y el botón anuncia la acción. Revisa que los tres se refieran al mismo servicio.",
+    "close": "Ya tenemos un boceto con contenido y una acción reconocible. En el siguiente módulo trabajaremos la presentación visual para que esas ideas puedan leerse con claridad y en el orden adecuado.",
+    "extra": "Lee título, descripción y botón en voz alta, sin explicar nada adicional. Si al escucharlos no se entiende el servicio, identifica qué frase necesita más precisión.",
+    "trouble": "Para cambiar un texto, arrastra sobre sus palabras y escribe el reemplazo. No selecciones toda la página con Comando + A. Si se pierde el contenido del taller, reinícialo y repite solo ese texto."
+  },
+  {
+    "id": "3.1",
+    "opening": "Jerarquía visual significa ayudar a distinguir qué información tiene más importancia. No se trata de hacer todo grande. Vamos a ver el mismo contenido con dos estilos para observar qué atrae primero la mirada y si esa atención coincide con lo que necesitamos comunicar.",
+    "extras": [
+      "Fíjate en la frase superior y en el título. Cuando varios elementos compiten por destacar, la persona debe hacer más esfuerzo para decidir por dónde empezar. Yo puedo querer que lea la oferta, pero el diseño puede estar dirigiendo su atención hacia otra cosa.",
+      "El título gana presencia y la descripción ocupa un papel de apoyo. Así proponemos un orden de lectura. No puedo asegurar que todas las personas mirarán exactamente lo mismo, pero sí puedo diseñar prioridades y después revisar si ayudan a comprender.",
+      "Deja que la comparación se vea. El tamaño puede destacar una frase; el contraste puede separar un botón del fondo; el espacio puede aislar un bloque. Son recursos que trabajan juntos. Si todo recibe el mismo énfasis, desaparece la diferencia entre principal y secundario.",
+      "Acabo de conservar la presentación ordenada y cambiar solamente las palabras. Ahora se ve organizado, pero «Soluciones para todos» no explica con precisión el servicio. Esta comparación muestra que el aspecto visual y el contenido deben resolver problemas distintos de forma coordinada.",
+      "Volvemos a una frase que orienta. Ahora puedo justificar dos decisiones: el título ocupa un lugar prioritario y su contenido dice qué necesidad atiende. No basta con conseguir que algo se vea primero; también necesitamos que lo primero que se lee aporte información."
+    ],
+    "answer": "En esta cabecera podrías priorizar el título, después la descripción y luego el botón principal. Explica el motivo: reconocer la oferta, entender su alcance y continuar. Si tu página tiene otra tarea, el orden puede cambiar, pero debe responder a esa tarea.",
+    "close": "Una buena jerarquía propone prioridades comprensibles. En la próxima clase miraremos cómo el tamaño y la extensión del texto afectan la lectura cuando cambia el espacio disponible.",
+    "extra": "Señala tres elementos sin pulsar nada. Di: «Este orienta, este explica y este permite continuar». Comprueba que el diseño refleja esa diferencia de funciones.",
+    "trouble": "Si los estilos parecen iguales, pulsa «Reiniciar taller» y vuelve a alternar «Estilo confuso» y «Estilo ordenado». Quédate arriba del taller para ver el título y la frase superior."
+  },
+  {
+    "id": "3.2",
+    "opening": "Vamos a revisar la tipografía desde una pregunta práctica: ¿se puede leer el contenido? Cambiaremos el tamaño de un párrafo, añadiremos una frase y revisaremos otro ancho de pantalla. No buscaremos una medida mágica; comprobaremos cómo funciona el texto en su contexto.",
+    "extras": [
+      "El texto sigue ahí, pero ahora exige más atención para leerlo. También importa la distancia, la pantalla y las necesidades de la persona. En esta demostración la cifra nos permite comparar; no vamos a convertirla en una conclusión universal sobre cualquier interfaz.",
+      "El párrafo gana presencia y utiliza más espacio. Eso también puede mover otros elementos. Por eso una decisión tipográfica debe revisarse dentro del diseño completo: que se lea, que no quede cortada y que mantenga una relación comprensible con títulos y botones.",
+      "Una maqueta con frases muy cortas puede ocultar problemas que aparecen con contenido real. Voy a mirar si el párrafo crece de forma natural, si invade otro elemento o si necesita ajustes. El diseño debe admitir el contenido que realmente queremos comunicar.",
+      "Al pasar a un ancho menor, el texto ocupa más líneas. Eso es normal. Lo que reviso es que no desaparezcan palabras ni tenga que desplazarme lateralmente para leer una frase. Esta vista es una comprobación de ancho; no simula todos los dispositivos.",
+      "El encabezado presenta una pregunta y el párrafo desarrolla la respuesta. La diferencia de tamaño o peso ayuda a distinguir esas funciones. Si todos los textos parecieran títulos, costaría reconocer niveles; si todos fueran iguales, podríamos perder puntos de referencia."
+    ],
+    "answer": "Puedes escribir una descripción breve y añadir después una frase sobre el siguiente paso. Revisa ambas en el taller y compara la página preparada en vista amplia y estrecha. Una respuesta útil señala un problema concreto de lectura o confirma qué parte se mantiene completa.",
+    "close": "La tipografía se comprueba con contenido real y en distintos espacios. Ahora vamos a estudiar otro factor que influye en percibir el texto: el contraste entre lo escrito y su fondo.",
+    "extra": "Lee una pregunta frecuente y su respuesta. Explica qué cambio tipográfico permite reconocer dónde empieza cada una, sin reducir la decisión a elegir una fuente bonita.",
+    "trouble": "Los cambios del párrafo en el taller no aparecen en Página web. Al cambiar de pestaña, di: «Ahora vamos a revisar una página ya preparada para observar cómo se adapta al ancho»."
+  },
+  {
+    "id": "3.3",
+    "opening": "El color puede dar identidad, destacar una acción y comunicar un estado. Hoy nos concentraremos en dos comprobaciones: si el texto se distingue de su fondo y si un error se entiende además de por su color. Usaremos el calculador del taller y después el formulario del ejemplo. WCAG son pautas de accesibilidad. AA es un nivel de cumplimiento que usaremos como referencia para este criterio.",
+    "extras": [
+      "La cifra compara la luminosidad relativa de ambos colores. No significa que el texto tenga un porcentaje de calidad. El resultado queda apenas por debajo del umbral, pero no se redondea para aprobarlo. Aquí revisamos texto normal sobre colores sólidos.",
+      "Ahora el calculador muestra aproximadamente once coma noventa y cinco a uno. En este caso el resultado supera el umbral para texto normal. Puedo conservar una identidad visual y ajustar el color del texto para que se distinga mejor; la marca y la lectura deben resolverse juntas.",
+      "Mira la muestra y después el resultado. El número ayuda a revisar este par de colores, pero no evalúa el tamaño, la navegación con teclado ni la claridad del contenido. Tampoco aplica directamente a cualquier zona de una fotografía. Delimitamos qué hemos comprobado.",
+      "Observa el borde y el aviso. Si solo cambiara el borde a rojo, alguien podría no percibir el cambio o no saber qué significa. El mensaje explica qué falta. Estamos usando varias señales para comunicar el mismo problema y facilitar la corrección.",
+      "Un mensaje debe ayudar a continuar. «Hay un error» deja demasiado trabajo a la persona. «Escribe un correo completo» apunta al dato que debe revisar. La forma visual llama la atención y las palabras orientan la acción."
+    ],
+    "answer": "Una combinación del ejemplo es texto #173D36 sobre #FFFFFF. Para el formulario podrías escribir «Escribe tu nombre para continuar». Revisa el resultado del calculador y explica por qué el mensaje se entiende sin depender del rojo.",
+    "close": "Hoy medimos una combinación de texto y fondo y vimos cómo acompañar el color con palabras. En la siguiente clase vamos a organizar elementos mediante espacio, alineación y patrones que se repiten.",
+    "extra": "Señala el resultado de texto normal y el de texto grande. Aclara que el umbral de 3:1 se aplica a texto grande según WCAG, no a cualquier frase que personalmente te parezca grande.",
+    "trouble": "Introduce seis caracteres hexadecimales después de #. Si aparece un aviso de formato, revisa espacios y letras. Para texto grande, WCAG usa al menos 18 pt regular o 14 pt en negrita; no confundas puntos con píxeles."
+  },
+  {
+    "id": "3.4",
+    "opening": "El espacio también comunica. Nos ayuda a reconocer grupos, separar funciones y recorrer la página. Vamos a cambiar la separación entre tarjetas y después veremos cómo una estructura repetida y los estados de un campo forman parte del diseño de una interfaz.",
+    "extras": [
+      "Cuando acerco las tarjetas, sus límites quedan más juntos. Pregúntate qué elementos parecen pertenecer al mismo grupo. No digo que poco espacio siempre esté mal; lo importante es comprobar si aquí la separación permite distinguir cada contenido.",
+      "Ahora los grupos se perciben con más claridad en este ejemplo. El número veinticuatro es la medida usada para comparar, no una obligación para todas las páginas. Elegimos una pauta, la repetimos y revisamos cómo se comporta con el contenido y el ancho.",
+      "Ambas tarjetas tienen un título y un párrafo en posiciones similares. Al reconocer ese patrón, puedo anticipar dónde leer la siguiente. Un componente reúne una estructura reutilizable y sus reglas de presentación; en este taller mostramos la idea sin construir una biblioteca técnica.",
+      "Los dos botones tienen funciones distintas. «Solicitar asesoría» es la acción principal y «Conocer el proceso» permite informarse antes. Pueden pertenecer a la misma familia visual y conservar diferente énfasis. Consistencia significa mantener reglas comprensibles, no hacer todos los elementos idénticos.",
+      "El campo vacío espera información, el foco muestra dónde estoy y el error indica qué revisar. Estos estados deberían formar parte de la propuesta desde el diseño. Una captura con campos vacíos no explica por sí sola cómo se comportará el formulario."
+    ],
+    "answer": "Puedes proponer un botón principal con texto claro y suficiente contraste, y un campo de error con borde visible y mensaje específico. Explica qué función tiene cada señal. No te limites a responder «verde y rojo», porque el color no describe toda la interacción.",
+    "close": "Ya revisamos jerarquía, lectura, color y espacio. Ahora vamos a utilizar criterios más amplios para revisar cómo se entiende y se usa una página: las heurísticas.",
+    "extra": "En dos tarjetas, señala el inicio del título y del párrafo. Explica cómo la alineación repetida facilita comparar contenido sin buscar una posición diferente en cada bloque.",
+    "trouble": "Si aparecen datos de una prueba anterior, usa «Reiniciar caso» antes de enviar vacío. Asegúrate de mostrar el formulario real de Página web, no el botón editable del taller."
+  },
+  {
+    "id": "4.1",
+    "opening": "Una heurística es un principio general que nos ayuda a revisar una interfaz. Sirve para detectar posibles dificultades y proponer cambios con una razón. No tienes que memorizar una lista: vamos a ver qué problema señala cada criterio y qué mejora permite plantear. Usaremos las diez heurísticas de Jakob Nielsen. Hoy trabajaremos estado, lenguaje y control.",
+    "extras": [
+      "Su nombre es visibilidad del estado del sistema. En Faro, el estado de espera me dice que la solicitud se está procesando; la confirmación me indica que terminó. Sin esas señales podría preguntarme si el botón funcionó. El beneficio esperado es reducir esa incertidumbre. Después comprobaríamos si una persona entiende la respuesta.",
+      "Esta se llama relación entre el sistema y el mundo real. Mira la frase del servicio: intentamos hablar de una necesidad que el visitante reconozca. No se trata de utilizar términos internos de la empresa. El cambio pretende facilitar la comprensión; para comprobarlo, pediríamos a alguien que explique con sus palabras qué ofrece Faro.",
+      "La tercera es control y libertad. Voy a volver a leer sin enviar, y después regresaré al formulario. Mira que Ana sigue escrito. La persona puede revisar información sin sentir que se equivocó por salir un momento. El diseño intenta darle una salida comprensible y conservar su trabajo durante este recorrido.",
+      "Aquí ocurre algo diferente: quiero eliminar lo que escribí. Por eso el nombre debe distinguir esta acción de simplemente regresar. En nuestro ejemplo son datos ficticios y un borrador pequeño. En un producto real, el nivel de protección de una acción destructiva dependería de sus consecuencias.",
+      "Para cada criterio hacemos el mismo razonamiento: observo una dificultad posible, propongo un cambio y explico qué ayudaría a resolver. Estado: entender qué ocurre. Lenguaje: comprender el servicio. Control: poder volver y corregir. Son decisiones sobre la experiencia; no una receta que garantice que todo el diseño ya funciona."
+    ],
+    "answer": "Puedes elegir la confirmación: «Después del envío, la página indica que recibió la solicitud; esto ayuda a conocer el resultado». Nombra el criterio de estado y explica el beneficio. También podrías elegir la conservación del nombre como ejemplo de control.",
+    "close": "Las heurísticas nos dan preguntas para revisar, pero la respuesta debe conectarse con algo concreto de la pantalla. En la siguiente clase veremos cómo evitar inconsistencias, anticipar errores y reducir esfuerzo.",
+    "extra": "Repite un envío, esta vez señalando la pregunta del visitante antes de cada estado: «¿Se envió?» y «¿Qué pasa ahora?». Relaciona las frases de pantalla con esas dos dudas.",
+    "trouble": "El estado de espera dura poco. Antes de enviar, avisa al alumno: «Mira el botón cuando lo pulse». Si se te pasó, termina la confirmación y repite con «Nueva demostración». No afirmes que quedó una cita reservada."
+  },
+  {
+    "id": "4.2",
+    "opening": "Seguimos con cuatro criterios: consistencia, prevención de errores, reconocimiento y eficiencia. Los vamos a relacionar con algo cotidiano: evitar que la persona tenga que descubrir de nuevo qué significa un botón, adivinar requisitos, memorizar condiciones o repetir un recorrido que ya conoce.",
+    "extras": [
+      "La cuarta heurística es consistencia y estándares. En nuestro caso usamos el mismo nombre para la misma solicitud. Si un acceso dijera «Reserva» y otro «Escríbenos», podríamos crear expectativas diferentes. Al repetir un significado claro, intentamos que la persona reconozca la acción antes de pulsar.",
+      "La quinta es prevención de errores. Observa que todavía no he fallado: puedo ver los requisitos antes de escribir. Esto no evita cualquier error posible, pero reduce una duda previsible. Después, si aun así me equivoco, necesitaremos mensajes de recuperación; prevenir y ayudar a corregir son trabajos relacionados.",
+      "La sexta es reconocimiento antes que recuerdo. No necesito acordarme de una condición que leí muy arriba: puedo consultarla cerca del formulario. En lugar de pedir memoria, dejamos la información disponible. El beneficio esperado es facilitar la decisión en el punto donde hace falta.",
+      "Voy a representar a alguien que llega por primera vez. Lee el proceso porque necesita entender cómo funciona. Esta ruta tiene una utilidad y no debemos eliminarla solo para reducir clics. El diseño debe considerar qué sabe la persona en ese momento.",
+      "La séptima es flexibilidad y eficiencia de uso. Ahora represento a alguien que ya revisó la oferta: puede ir directamente a solicitar. Este acceso acorta su recorrido sin quitar la explicación a quien la necesita. Tendremos que comprobar que ambas rutas sean comprensibles y que no oculten condiciones."
+    ],
+    "answer": "Una respuesta posible: «Los accesos a solicitar conservan el mismo nombre, y la duración de la conversación debe permanecer visible cerca del formulario». La primera decisión ayuda a reconocer la acción; la segunda evita depender de recordar información de otra sección.",
+    "close": "Estas cuatro heurísticas nos hacen revisar cuánto esfuerzo innecesario exige la interfaz. A continuación miraremos qué contenido aporta valor y cómo ayudar cuando aparece una duda o un error.",
+    "extra": "Desde la cabecera, describe dos personas ficticias: una necesita leer el proceso y otra ya lo conoce. Señala el acceso que usaría cada una y explica por qué conservarías ambos.",
+    "trouble": "La ruta directa y la ruta de lectura llegan a la misma solicitud. No la presentes como personalización automática: es una elección de recorrido disponible en esta página."
+  },
+  {
+    "id": "4.3",
+    "opening": "Terminaremos las diez heurísticas con tres temas: contenido relevante, recuperación de errores y ayuda. Vamos a ver cómo un diseño puede distraer con mensajes repetidos o dejar a la persona sin orientación. Después mostraremos cambios que intentan hacer más claro qué hacer y cómo continuar.",
+    "extras": [
+      "La octava es diseño estético y minimalista. Pregunto qué aporta cada mensaje a la tarea. Aquí dos anuncios llamativos consumen atención sin explicar mejor el servicio. No significa que todas las páginas deban ser blancas o tener poco texto; significa revisar la utilidad de lo que destacamos.",
+      "En la mejora permanece contenido sobre el proceso porque sí ayuda a decidir. Quitar por quitar podría dejar nuevas dudas. Para justificar el cambio diría: retiramos repetición y conservamos alcance y condiciones. Así intento que la atención se dirija a información útil, no solo reducir la longitud de la página.",
+      "La novena trata de reconocer, entender y corregir errores. Mira que el aviso apunta al correo y que el nombre se conserva. La persona puede concentrarse en el dato que falta corregir. No la estamos culpando ni mostrando un código interno; intentamos orientar el siguiente paso.",
+      "La décima es ayuda y documentación. La explicación del campo aparece cerca de donde puede necesitarse. Una ayuda útil responde una duda específica en el contexto adecuado. Si obligáramos a salir del formulario para entender qué dato enviar, estaríamos añadiendo esfuerzo.",
+      "Esta pregunta frecuente atiende una expectativa importante. Enviar una solicitud no equivale a reservar una hora. La respuesta permite conocer esa condición antes de actuar. El beneficio esperado es evitar una interpretación incorrecta; luego observaríamos qué cree la persona que sucederá después."
+    ],
+    "answer": "Puedes reemplazar «Error 01» por «Escribe un correo completo, por ejemplo ana@example.com». El mensaje identifica el dato y orienta su corrección. Si tu formulario usa otro dato, adapta la explicación a ese problema en lugar de reutilizar el texto sin contexto.",
+    "close": "Ya tenemos diez criterios para revisar. Ahora vamos a aprender a documentar un problema para que la revisión termine en una propuesta y una comprobación concreta.",
+    "extra": "Lee «Error 01» en voz alta como ejemplo verbal y después el mensaje del correo. Explica qué información añade el segundo: dónde está la dificultad y cómo continuar.",
+    "trouble": "Escribe solo ana en Correo y Ana en Nombre para provocar el error previsto. No envíes un correo correcto antes de mostrar el aviso; si lo haces, pulsa «Nueva demostración» y repite."
+  },
+  {
+    "id": "4.4",
+    "opening": "Encontrar un problema no es suficiente si otra persona no puede localizarlo ni entender qué proponemos. Vamos a documentar el error del formulario. Nuestra ficha tendrá ubicación, problema, criterio, impacto estimado, cambio y comprobación. Así la revisión se convierte en una herramienta de trabajo.",
+    "extras": [
+      "Primero reproduzco la situación: envío un correo incompleto y aparece «Error 01». Estoy anotando una condición concreta, no diciendo que toda la web esté mal. Si otra persona quiere revisar mi observación, podrá repetir estos pasos y ver el mismo aviso.",
+      "La ubicación debe ser precisa. «El formulario está mal» no dice cuándo ocurre ni qué intento hacer. «Al enviar un correo inválido» permite encontrar el estado que estamos revisando. En proyectos más grandes añadiríamos la pantalla o enlace correspondiente.",
+      "Ahora explico por qué ese aviso es un problema: no orienta la corrección. El nombre de la heurística ayuda a organizar el razonamiento, pero no sustituye la explicación. Si solo escribiera «incumple la nueve», alguien que no conozca la lista no sabría qué cambiar.",
+      "Esta escala es didáctica y propia del curso. Uno significa una molestia menor; dos, una dificultad relevante; tres, un posible bloqueo de la tarea. No estamos usando una medición ni afirmando que todos se bloquearán. Es una estimación que debemos revisar con más evidencia.",
+      "La propuesta dice qué haríamos y la comprobación indica qué observaríamos después. Si la persona corrige el correo sin ayuda, tendremos una señal sobre ese cambio. No basta con implementar un mensaje nuevo y dar por demostrada la mejora: definimos cómo verificarlo."
+    ],
+    "answer": "Una ficha posible: «Formulario, al enviar ana como correo. Aparece Error 01 y no explica la corrección. Criterio: recuperación de errores. Cambio: mostrar un aviso junto a Correo. Comprobación: observar si la persona corrige y termina». El impacto se identifica como estimado.",
+    "close": "Una revisión útil permite localizar, comprender y actuar. En el siguiente módulo vamos a aplicar lo aprendido a la cabecera, las secciones y los estados de la página.",
+    "extra": "Lee la ficha como si se la entregaras a otra persona del equipo. Pregunta en voz alta: «¿Sabe dónde mirar, qué cambiar y cómo revisarlo?». Señala el campo que responde a cada pregunta.",
+    "trouble": "En «Escribir un ejemplo», elige 4.4. No borres los rótulos de la plantilla: escribe después de cada uno. Guarda el texto antes de cambiar a otro ejemplo si quieres conservar esta ficha."
+  },
+  {
+    "id": "5.1",
+    "opening": "Ahora vamos a aplicar los fundamentos a una cabecera. Su trabajo será orientar al visitante: qué ofrece la página, a quién ayuda y cuál es el siguiente paso. Escribiremos una propuesta en el taller y después comprobaremos un enlace en la página preparada.",
+    "extras": [
+      "El título podría aparecer en una web de educación, entrenamiento o consultoría. Esa amplitud puede impedir reconocer rápidamente la oferta. Antes de cambiar colores, voy a resolver el contenido: ¿qué necesidad atendemos aquí y cómo podemos expresarla con más precisión?",
+      "La nueva frase se relaciona con organizar la atención de un negocio. Todavía no responde todo, pero orienta mejor el tema. Un título funciona junto a su contexto. Por eso miraremos también la descripción y el botón, en lugar de pedir que una sola línea explique el servicio completo.",
+      "Ahora añado qué revisaremos y cuánto dura la conversación. Esto ayuda a delimitar el alcance. No estamos prometiendo resolver todo el negocio en treinta minutos. Un texto claro necesita ser coherente con el servicio real; en Faro estamos utilizando condiciones ficticias del ejercicio.",
+      "«Solicitar» indica que inicio una petición. Si escribiera «Cita confirmada» antes de coordinar nada, estaría prometiendo un resultado que todavía no ocurrió. El texto del botón debe anticipar la acción con honestidad. Aquí lo modificamos en el boceto, sin activar un envío.",
+      "El enlace me lleva a la sección del proceso. Eso completa su promesa. Una etiqueta puede estar bien escrita, pero si lleva a un contenido que no corresponde, la experiencia sigue siendo confusa. Revisar navegación implica mirar tanto el nombre como el destino."
+    ],
+    "answer": "Para Faro puedes usar el título «Organiza la atención de tu negocio», una descripción sobre la conversación inicial y «Solicitar asesoría» como acción. Comprueba que alguien puede reconocer el tema, entender el alcance inicial y saber cómo continuar.",
+    "close": "La cabecera ya relaciona oferta, explicación y acción. A continuación vamos a extender esa lógica al resto de las secciones para que cada una responda una duda útil.",
+    "extra": "En la página mejorada, lee título, descripción y botón como lo haría un visitante. Después pulsa «Conocer el proceso» y señala la información que confirma el significado del enlace.",
+    "trouble": "El título que cambies en Editar diseño no aparecerá automáticamente en Página web. Anuncia la transición: «Ya redactamos la propuesta; ahora revisamos su aplicación en el ejemplo preparado»."
+  },
+  {
+    "id": "5.2",
+    "opening": "Vamos a revisar la función de cada sección. Una página puede tener muchas partes y seguir dejando dudas importantes. Para evitarlo, debajo de cada bloque escribiremos una pregunta del visitante. Esa pregunta nos servirá para decidir qué contenido merece estar ahí.",
+    "extras": [
+      "Oferta explica qué existe; beneficios explica en qué puede ayudar. Son preguntas relacionadas, pero no idénticas. Si ambos bloques repiten la misma frase, quizá no estemos aportando información nueva. Primero defino el trabajo de cada sección y después desarrollo sus textos.",
+      "Proceso y preguntas frecuentes aclaran condiciones del recorrido. En este ejemplo es especialmente importante explicar qué ocurre al enviar y si la cita queda reservada. Una duda no atendida puede generar una expectativa incorrecta aunque el formulario funcione.",
+      "Contacto es el punto donde facilito la solicitud. Su contenido debe conectar con lo explicado arriba. Si el resto de la página habla de una conversación inicial, aquí no debería aparecer una promesa distinta. El recorrido completo necesita mantener un significado coherente.",
+      "Voy bajando despacio y relacionando cada bloque con una pregunta. La página preparada nos permite ver una posible aplicación de la estructura. Observa cómo el contenido intenta resolver dudas antes de pedir datos, conservando un acceso directo para quien ya sabe qué necesita.",
+      "Esta condición forma parte del caso ficticio. En un proyecto real no debemos inventar precios, gratuidad ni tiempos de respuesta para hacer más atractiva la página. El diseño debe presentar información confirmada; de lo contrario, la claridad aparente puede crear una expectativa falsa."
+    ],
+    "answer": "Puedes escribir: Oferta responde qué servicio existe; Beneficios, en qué ayuda; Cómo funciona, qué pasos siguen; Preguntas frecuentes, qué condiciones pueden generar dudas; Contacto, cómo pedir información. Si un bloque no responde nada útil, revisa si necesita otro contenido o si sobra.",
+    "close": "Cada sección tiene ahora una función. Vamos a profundizar en el contacto y mostrar cómo se diseña lo que ocurre cuando el formulario está vacío, falla, espera y termina.",
+    "extra": "Elige Preguntas frecuentes y lee solo su pregunta principal. Explica por qué esa duda no se resuelve con el color del botón ni con una fotografía: necesita contenido.",
+    "trouble": "Escribe las preguntas en el párrafo de cada tarjeta, conservando el título de la sección. Si cambiaste accidentalmente un título, restáuralo antes de pasar a la página preparada."
+  },
+  {
+    "id": "5.3",
+    "opening": "Un formulario no es solamente un conjunto de campos vacíos. También incluye lo que la persona ve cuando falta un dato, cuando algo es incorrecto, mientras se envía y cuando termina. Vamos a recorrer esos estados usando datos ficticios, para entender qué debe comunicar cada uno.",
+    "extras": [
+      "Estoy provocando una situación frecuente para revisar la respuesta. Observa dónde aparece cada mensaje y qué campo recibe el foco. La persona debería poder relacionar el aviso con el dato que necesita completar. Un mensaje lejano o genérico puede obligarla a buscar.",
+      "Ahora un dato está bien y otro no. El nombre permanece, así que no tengo que volver a escribirlo. Esto concentra el esfuerzo en corregir el correo. Cuando diseñes un error, piensa tanto en la explicación como en qué trabajo correcto conviene conservar.",
+      "Voy a señalar el botón justo después del clic. El mensaje cambia y el botón se desactiva temporalmente en esta demostración. Esto comunica que el proceso está en marcha y evita repetir la misma acción aquí. No estamos enseñando una integración real con un servidor.",
+      "Lee conmigo la confirmación y el siguiente paso. La solicitud fue recibida en nuestra simulación, pero la hora se coordina después. Una confirmación debe responder qué ocurrió y qué espera ahora la persona. Un icono de éxito sin contexto podría dejar esas dudas abiertas.",
+      "Reiniciar nos permite ensayar otra vez todos los estados. Al entregar un diseño a un equipo, conviene explicar qué muestra cada uno y cómo se pasa al siguiente. Si solo mostramos el estado vacío, dejamos decisiones importantes pendientes."
+    ],
+    "answer": "Puedes escribir «Escribe tu nombre para continuar», «Enviando solicitud» y «Solicitud recibida; después te contactaremos para coordinar». Adapta los textos a lo que realmente hará tu servicio. El primero corrige, el segundo informa de espera y el tercero confirma y orienta.",
+    "close": "Diseñar el formulario incluye sus mensajes y transiciones. En la siguiente clase revisaremos si este recorrido se mantiene comprensible cuando cambia el ancho de pantalla y se utiliza el teclado.",
+    "extra": "Repite el envío inválido y pide al alumno identificar qué dato se conserva. Explica por qué conservar información correcta reduce trabajo innecesario durante la corrección.",
+    "trouble": "Antes de empezar deja el formulario vacío con «Nueva demostración» o «Reiniciar caso». No cambies de versión durante la espera. Espera a ver la confirmación completa antes de explicar su contenido."
+  },
+  {
+    "id": "5.4",
+    "opening": "La misma tarea debe poder entenderse en espacios distintos. Vamos a comparar una vista amplia con un ancho de trescientos noventa píxeles. También revisaremos el foco del teclado. Es una comprobación inicial del ejemplo; antes de publicar un sitio real harían falta más dispositivos y más revisiones.",
+    "extras": [
+      "En escritorio hay espacio para colocar varias tarjetas una al lado de otra. Fíjate en su orden, sus títulos y la relación con el resto de la página. Esta será nuestra referencia para comparar qué cambia y qué se conserva en la vista estrecha.",
+      "Ahora las tarjetas se colocan en una columna. No necesito reducir todo hasta que quede diminuto para hacerlo caber. La reorganización intenta conservar lectura y orden. La persona sigue necesitando comprender el servicio y solicitar información, aunque el espacio sea diferente.",
+      "Voy a recorrer toda la página, no solo la cabecera. Un título puede verse bien y el formulario quedar cortado más abajo. Revisa preguntas frecuentes, botones, etiquetas y mensajes. Aquí buscamos problemas concretos como desbordamientos o contenido que obliga a desplazarse lateralmente.",
+      "El foco pasa de Nombre a Correo y vuelve. Este contorno indica qué campo está activo. El orden del teclado debería tener sentido para la tarea. Cambiar el ancho no elimina la necesidad de revisar la interacción; presentación y comportamiento siguen relacionados.",
+      "Al volver a la vista amplia, comparamos distribución, longitud de líneas y tamaño de los grupos. No esperamos que todo se vea idéntico. Esperamos que la información y la acción sigan disponibles y comprensibles. Esa es la razón de adaptar la composición."
+    ],
+    "answer": "Puedes señalar que las tarjetas pasan de columnas a una lista vertical, los textos ocupan más líneas y los controles disponen de un espacio más estrecho. Después verifica que no se cortan. Describe cambios observables, no solo «se ve responsive».",
+    "close": "Ya revisamos la propuesta en dos anchos y un pequeño recorrido con teclado. En el último módulo vamos a observar cómo otra persona intenta usarla, para contrastar nuestras decisiones con lo que ocurre.",
+    "extra": "Compara el mismo bloque en ambas vistas. Di: «La distribución cambió, pero esta pregunta y esta acción siguen disponibles». Señala exactamente dónde quedaron.",
+    "trouble": "«Móvil 390» cambia el ancho del ejemplo dentro del navegador. No cambies además el zoom para simular otro tamaño. Si la página quedó a mitad de recorrido, vuelve arriba antes de comparar."
+  },
+  {
+    "id": "6.1",
+    "opening": "Vamos a preparar una prueba sencilla. En lugar de preguntarle a alguien si le gusta la página, le daremos una tarea y observaremos qué hace. Para aprender del diseño, necesitamos que descubra el recorrido sin recibir desde el inicio una lista de botones que debe pulsar.",
+    "extras": [
+      "Si le digo exactamente dónde hacer clic, puedo comprobar que sigue mi instrucción, pero aprenderé menos sobre si el nombre del botón se entiende. Por eso esta frase aparece como una instrucción que evitaremos. Quiero observar cómo decide avanzar ante una necesidad.",
+      "La nueva tarea da contexto y un objetivo, sin revelar la ruta. La persona tiene un negocio con consultas acumuladas y necesita averiguar si Faro le ayuda. Puede leer, buscar y elegir cómo pedir información. Sus decisiones nos permitirán detectar dudas del recorrido.",
+      "Los datos ficticios nos permiten repetir el ejercicio sin pedir información personal. Aclaro que es una demostración y que el formulario no envía una solicitud real. Así podemos concentrarnos en comprender los campos y la respuesta del sistema.",
+      "Voy a registrar acciones y frases, además de si terminó. Si alguien pide ayuda o vuelve atrás, necesito anotar qué pasó, sin atribuir automáticamente la causa. Después separaré lo observado de mi interpretación y de la mejora que quiero proponer.",
+      "Esta frase intenta evitar que la persona sienta que estamos evaluando su capacidad. Le explico que sus dudas nos ayudan a revisar la página. Antes de grabarla acordaré su participación y el uso de la grabación. El objetivo de la sesión debe estar claro."
+    ],
+    "answer": "Una tarea posible es: «Tienes un negocio con consultas acumuladas. Averigua si Faro puede ayudarte y pide información». No incluyas «pulsa Solicitar asesoría», porque estarías revelando el camino que quieres observar.",
+    "close": "Ya tenemos una tarea, datos de prueba y aspectos que observar. En la siguiente clase la pondremos en práctica y registraremos lo que ocurrió, incluyendo cualquier ayuda ofrecida.",
+    "extra": "Lee la instrucción guiada y después la tarea nueva. Explica qué información quitaste para permitir que la persona decida el recorrido por sí misma.",
+    "trouble": "Si no tienes participante, prepara igual la tarea y ensaya el procedimiento. Di que es una simulación. No rellenes después un registro como si hubiera ocurrido una prueba real."
+  },
+  {
+    "id": "6.2",
+    "opening": "En esta clase vamos a observar a una persona intentando la tarea. Verás cómo la presento y cómo registro lo que ocurre. Durante el intento no voy a explicar los botones. Si hago una pausa o ayudo, lo dejaré anotado. Si realizas este ejercicio sin participante, identifícalo desde el inicio como una simulación.",
+    "extras": [
+      "Antes de comenzar, le aclaro que estamos probando la página y que puede detenerse. Le doy el control del ratón o del teclado. A partir de ahí observo su recorrido. No coloco el cursor sobre la respuesta correcta, porque eso también sería una pista.",
+      "Si la persona está intentando decidir, no completo su frase ni indico una sección. Puedo invitarla a contar qué busca, sin forzar una explicación constante. Después registraré lo que haga o diga realmente. El silencio por sí solo no me permite afirmar que está confundida.",
+      "Esta pregunta puede ayudar a conocer qué intentaría. Si aun así necesita apoyo, puedo ofrecerlo para continuar y registrarlo. No tiene sentido ocultar la ayuda y declarar que completó sin asistencia. Tampoco debo mantenerla frustrada solo para terminar el ejercicio.",
+      "Su respuesta me permite revisar la expectativa que dejó la confirmación. Si espera una cita reservada y el servicio solo recibió una solicitud, habrá algo que investigar. No le doy primero la explicación correcta, porque entonces ya no estaría observando su comprensión inicial.",
+      "Una frase observada sería «preguntó si la cita estaba reservada». Mi interpretación podría ser «quizá la confirmación no fue suficientemente clara». Son cosas diferentes. Tampoco puedo convertir una observación de una persona en una conclusión sobre todos los visitantes."
+    ],
+    "answer": "Tu registro debe contener algo que realmente pasó: una acción, una frase o una ayuda ofrecida. Si hiciste una simulación, escribe «simulación» y describe el procedimiento ensayado. No existe una frase de usuario que debas copiar como respuesta correcta.",
+    "close": "Ahora tenemos un registro de lo ocurrido y sabemos qué parte es interpretación. En la siguiente clase veremos cómo convertir una posible dificultad en una propuesta que todavía necesita comprobarse.",
+    "extra": "Después de terminar el intento, vuelve al registro con el alumno. Lee una observación real y formula una posible interpretación usando «podría» o «quizá». Explica por qué no son la misma cosa.",
+    "trouble": "No leas los párrafos de explicación al alumno mientras el participante intenta la tarea: le darías pistas. Graba esas explicaciones antes o después del intento. Las intervenciones breves al participante se indican expresamente en esta clase."
+  },
+  {
+    "id": "6.3",
+    "opening": "Vamos a practicar el paso de una dificultad a una mejora. Usaremos un registro ficticio: una persona interpreta «Reserva tu lugar» como una cita ya confirmada. Este ejemplo no es un resultado de la prueba anterior. Lo utilizaremos para aprender a formular una hipótesis y preparar una comprobación.",
+    "extras": [
+      "Quiero que quede claro el origen del caso. Podemos crear ejemplos para aprender, pero debemos identificarlos. Si hubiéramos observado esa frase en una prueba real, conservaríamos sus palabras y contexto. Aquí solo trabajamos con una situación inventada para ensayar el razonamiento.",
+      "La causa podría estar en el verbo «reservar», aunque también podrían influir otros textos del recorrido. Escribir una hipótesis evita presentar mi explicación como definitiva. Me ayuda a decidir qué cambio probar y qué respuesta necesitaría observar para revisarla.",
+      "Voy a mostrar el texto que estamos discutiendo. En el boceto puedo compararlo sin publicar nada. Al leer «Reserva tu lugar», pregúntate qué resultado anticipas. Esa expectativa debería coincidir con lo que realmente sucede después del clic.",
+      "«Solicitar asesoría» y la explicación sobre coordinar después intentan ajustar esa expectativa. El cambio parece razonable según el problema descrito, pero todavía no demuestra que todas las personas lo entenderán. Debemos revisar el recorrido completo y observar una nueva interpretación.",
+      "Anotar la comprobación mantiene abierto el trabajo. Puedo pedir a una persona que use el ejemplo y preguntar qué espera después de enviar. Si persiste la misma interpretación, tendré que revisar el texto o el contexto. Mejorar incluye estar dispuesto a corregir la primera propuesta."
+    ],
+    "answer": "Un ejemplo: «Problema: el texto parece prometer una reserva inmediata. Cambio: Solicitar asesoría y aclaración sobre coordinar después. Comprobación: observar qué espera una persona nueva tras enviar». Identifica el caso como ficticio si estás utilizando este ejemplo.",
+    "close": "Una mejora conecta un problema, una hipótesis y una comprobación. En la última clase organizaremos nuestras decisiones para presentar el antes y el después sin prometer resultados que todavía no medimos.",
+    "extra": "Lee ambos textos del botón y completa verbalmente: «Después de pulsar, yo esperaría...». Explica qué palabra cambia esa expectativa y por qué debe coincidir con el servicio.",
+    "trouble": "La pizarra de 6.3 trae un caso ficticio preparado. No lo atribuyas al participante de 6.2. Si tienes un hallazgo real, puedes analizarlo aparte manteniendo su contexto."
+  },
+  {
+    "id": "6.4",
+    "opening": "Vamos a cerrar presentando tres mejoras. Para cada una mostraremos el antes, el después y la razón. El objetivo es que otra persona entienda qué dificultad intentamos resolver. Esta estructura te servirá para presentar el proyecto final, aunque todavía queden comprobaciones pendientes.",
+    "extras": [
+      "Antes el título podía aplicarse a muchos servicios. Ahora se relaciona con organizar la atención de un negocio. La justificación es ayudar a reconocer la oferta. Para afirmar que se entiende mejor con usuarios reales, necesitaríamos observar su comprensión; aquí presentamos la intención del cambio.",
+      "«Dato 1» y «Dato 2» obligaban a adivinar. «Nombre» y «Correo» indican qué escribir. Mi explicación se centra en orientar la tarea. No digo solamente que los campos están más bonitos, porque eso no comunica el problema que atiende la propuesta.",
+      "La confirmación muestra que terminó la solicitud y explica el siguiente paso. Así intentamos responder dos dudas: si llegó y qué ocurre después. Recuerda que es una simulación local. La implementación real necesitaría gestionar el envío y sus posibles respuestas.",
+      "Para cada fila escribo problema, cambio y razón. Esta estructura permite comparar decisiones y evita una presentación formada solo por capturas. Si puedo explicar cada cambio con claridad, otra persona puede discutirlo, revisarlo o proponer una alternativa con un motivo.",
+      "Ser claro sobre lo pendiente forma parte de una presentación profesional. No hemos demostrado un aumento de ventas ni publicado un sistema real. Hemos elaborado una propuesta, revisado principios y practicado una observación. El siguiente paso dependerá de lo que falte implementar y comprobar."
+    ],
+    "answer": "Una presentación breve puede decir: «Aclaré el título para identificar el servicio; nombré los campos para orientar los datos; añadí confirmación y siguiente paso para explicar el resultado». Acompaña cada frase con el antes y el después correspondiente.",
+    "close": "Terminamos con una secuencia que puedes repetir: entender la necesidad, organizar el contenido, diseñar la interfaz, observar su uso y mejorar con una razón. Tu proyecto final debe mostrar esas decisiones y distinguir lo comprobado de lo que aún está pendiente.",
+    "extra": "Ensaya una presentación de unos dos minutos con las tres filas. Si te extiendes, elimina repeticiones antes de hablar más rápido. Conserva problema, cambio y razón para cada mejora.",
+    "trouble": "Para mostrar la confirmación usa Página web, Versión mejorada, Ana y ana@example.com. Si preparaste tus propios textos en el taller, toma capturas antes de reiniciarlo para incluirlas en la presentación."
+  }
+]

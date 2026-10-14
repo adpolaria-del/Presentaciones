@@ -1,0 +1,8 @@
+ABRE EMPEZAR-AQUI.html
+
+Esta edición contiene el guion ampliado del profesor, alineado con el programa de estudiantes.
+Elige una clase en el menú y sigue sus dos páginas: parte A y parte B.
+Abre PANTALLA-PARA-GRABAR.html para mostrar la práctica.
+Di y Di al abrir/cerrar son textos para decir en voz alta. Las otras instrucciones son para ti.
+Conserva recursos junto a los archivos. La herramienta funciona localmente; no envía solicitudes reales.
+El programa del estudiante está en programa-estudiantes.pdf.

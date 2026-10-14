@@ -1,0 +1,230 @@
+[
+  {
+    "n": 1,
+    "title": "Fundamentos de UX y UI",
+    "objective": "Comprender cómo la experiencia y la interfaz ayudan a una persona a completar una tarea en una web.",
+    "lessons": [
+      {
+        "title": "Qué es UX y qué es UI",
+        "minutes": 8,
+        "teach": "Se explicará UX como la experiencia de una persona al intentar resolver una necesidad y UI como los elementos con los que interactúa. Se relacionarán contenido, navegación, apariencia y respuesta del sitio con una tarea concreta: solicitar información sobre un servicio.",
+        "demo": "Comparar dos versiones de una página y señalar qué decisiones afectan la experiencia y cuáles definen su presentación.",
+        "result": "Explicar UX y UI con ejemplos propios, reconociendo cómo trabajan juntas."
+      },
+      {
+        "title": "Usabilidad, utilidad y accesibilidad",
+        "minutes": 8,
+        "teach": "Se distinguirá que una web permita hacer algo útil, que resulte comprensible y que pueda utilizarse en distintas condiciones. Se presentarán barreras de lectura, navegación y comprensión, y la necesidad de considerar personas con capacidades y dispositivos diferentes.",
+        "demo": "Recorrer un menú ambiguo y un formulario difícil de entender, describiendo la dificultad que producen.",
+        "result": "Diferenciar una preferencia estética de un problema que impide o dificulta una tarea."
+      },
+      {
+        "title": "Objetivos de la persona y del negocio",
+        "minutes": 7,
+        "teach": "Se definirá qué quiere conseguir el visitante y qué espera el negocio. Se enseñará a formular una tarea observable y una acción principal, evitando que la página compita con demasiados objetivos. Una mejora visual se tratará como una hipótesis cuyo efecto debe comprobarse.",
+        "demo": "Convertir el pedido “quiero una web moderna” en un objetivo: comprender el servicio y solicitar una asesoría.",
+        "result": "Redactar un objetivo de página y un criterio sencillo para reconocer si se cumple."
+      },
+      {
+        "title": "El proceso de diseño aplicado a una web",
+        "minutes": 7,
+        "teach": "Se presentará la secuencia comprender, organizar, dibujar, revisar y mejorar. Se distinguirán un boceto estructural o wireframe, un diseño visual y un prototipo que simula interacciones. El caso de una página de servicios acompañará los seis módulos.",
+        "demo": "Mostrar el mismo caso como contenido desordenado, esquema de bloques y propuesta visual.",
+        "result": "Identificar las etapas del curso y los entregables del proyecto."
+      }
+    ],
+    "minutes": 30,
+    "task": "Escribir quién visita la página, qué necesita resolver y qué acción principal debe poder realizar.",
+    "check": "La ficha describe una tarea concreta y distingue el objetivo del usuario del objetivo comercial."
+  },
+  {
+    "n": 2,
+    "title": "Entiende al usuario y organiza la información",
+    "objective": "Definir una tarea, sus contenidos y un recorrido antes de decidir colores o estilos.",
+    "lessons": [
+      {
+        "title": "Necesidades, contexto y preguntas al usuario",
+        "minutes": 10,
+        "teach": "Se enseñará a explorar por qué una persona llega a la web, qué información busca y qué le genera dudas. Se redactarán preguntas abiertas sobre experiencias reales. Los supuestos del negocio se anotarán como hipótesis, sin convertirlos en hallazgos de investigación.",
+        "demo": "Preparar tres preguntas y separar en una ficha lo que sabemos, lo que suponemos y lo que falta comprobar.",
+        "result": "Definir un perfil de uso basado en necesidades y reconocer los límites de la información disponible."
+      },
+      {
+        "title": "Recorrido del visitante y puntos de fricción",
+        "minutes": 8,
+        "teach": "Se trazará el camino desde que una persona llega hasta que solicita información. En cada paso se identificarán su pregunta, la información necesaria y los obstáculos posibles. Se explicará cómo una interrupción o una duda sin resolver puede dificultar la continuidad.",
+        "demo": "Dibujar el recorrido: entender la oferta, revisar condiciones, elegir contactar y recibir confirmación.",
+        "result": "Localizar los momentos en los que la página debe orientar y responder al visitante."
+      },
+      {
+        "title": "Arquitectura de la información y navegación",
+        "minutes": 9,
+        "teach": "Se enseñará a agrupar contenidos por su significado, nombrar secciones con claridad y organizar la navegación. Se diferenciará el orden de las secciones de una página del mapa de un sitio con varias páginas. Se evitarán categorías que solo conoce el equipo interno.",
+        "demo": "Ordenar tarjetas de contenido y convertirlas en un menú breve y una secuencia de secciones.",
+        "result": "Proponer una estructura que permita encontrar la información relacionada con la tarea."
+      },
+      {
+        "title": "Contenido, llamada a la acción y primer wireframe",
+        "minutes": 8,
+        "teach": "Se definirá qué debe explicar el título, qué dudas resuelve el contenido y qué significa la llamada a la acción o CTA. Se dibujarán bloques simples con textos provisionales suficientemente claros para evaluar la estructura. Se priorizará la información necesaria para decidir.",
+        "demo": "Construir un esquema de oferta, beneficios, funcionamiento, preguntas frecuentes y contacto.",
+        "result": "Crear el primer wireframe con una acción principal comprensible."
+      }
+    ],
+    "minutes": 35,
+    "task": "Crear la ficha del usuario, el recorrido de contacto y un primer esquema de secciones.",
+    "check": "Cada sección responde a una pregunta del visitante y el recorrido termina en una acción definida."
+  },
+  {
+    "n": 3,
+    "title": "Fundamentos de UI para páginas web",
+    "objective": "Aplicar criterios visuales que hagan el contenido legible, ordenado y fácil de recorrer.",
+    "lessons": [
+      {
+        "title": "Jerarquía visual y lectura de la página",
+        "minutes": 10,
+        "teach": "Se explicará cómo tamaño, posición, contraste y espacio indican qué mirar primero. Se distinguirán título, subtítulo, contenido y acción principal. El alumno aprenderá a comprobar si la presentación ayuda a reconocer la oferta y a localizar el siguiente paso.",
+        "demo": "Reorganizar una cabecera con varios elementos compitiendo por atención y justificar la nueva prioridad.",
+        "result": "Definir un orden de lectura alineado con la tarea principal."
+      },
+      {
+        "title": "Tipografía y contenido legible",
+        "minutes": 10,
+        "teach": "Se trabajarán roles tipográficos, longitud de los textos, interlineado y separación entre párrafos. Se enseñará a mantener una escala sencilla y a revisar la lectura con contenido real, tanto en escritorio como en móvil. Los títulos deberán describir el contenido que introducen.",
+        "demo": "Comparar dos bloques de texto y ajustar sus niveles y distribución sin cambiar su significado.",
+        "result": "Proponer una escala de títulos y cuerpo de texto coherente."
+      },
+      {
+        "title": "Color, contraste y significado",
+        "minutes": 10,
+        "teach": "Se asignarán funciones a los colores: identidad, acción, información y estado. Se comprobará el contraste con una herramienta y se explicará por qué un aviso debe poder entenderse sin depender solo del color. El ejercicio será una revisión inicial, no una certificación de accesibilidad.",
+        "demo": "Comparar dos combinaciones y añadir texto o iconografía a un estado de error.",
+        "result": "Elegir una paleta funcional y detectar combinaciones que dificultan la lectura."
+      },
+      {
+        "title": "Espaciado, alineación y componentes",
+        "minutes": 10,
+        "teach": "Se explicarán proximidad y semejanza con tarjetas, listas y formularios. Se creará una pauta de espaciado y se definirán botones primarios, secundarios y campos con estados consistentes. La repetición de reglas permitirá que el visitante reconozca funciones equivalentes.",
+        "demo": "Alinear tarjetas, agrupar sus contenidos y definir un pequeño conjunto de componentes reutilizables.",
+        "result": "Documentar reglas visuales básicas y aplicarlas a más de una sección."
+      }
+    ],
+    "minutes": 40,
+    "task": "Aplicar al wireframe una jerarquía, una escala de texto, una paleta y estilos de botones y campos.",
+    "check": "La propuesta tiene una acción reconocible y reglas coherentes de lectura, agrupación y contraste."
+  },
+  {
+    "n": 4,
+    "title": "Las diez heurísticas de usabilidad",
+    "objective": "Utilizar los principios de Jakob Nielsen para revisar decisiones de interacción en una página web.",
+    "lessons": [
+      {
+        "title": "Qué son las heurísticas: principios 1 a 3",
+        "minutes": 15,
+        "teach": "Se presentarán como criterios de revisión. Se estudiarán la información sobre el estado, la relación con el lenguaje cotidiano y el control del usuario. Se usará una solicitud de asesoría para observar espera, confirmación y posibilidad de cancelar.",
+        "demo": "Recorrer tres pantallas del caso y anotar cuándo la persona sabe qué está pasando y cómo volver atrás.",
+        "result": "Reconocer problemas de orientación, comprensión o control en un recorrido."
+      },
+      {
+        "title": "Principios 4 a 7: consistencia y esfuerzo",
+        "minutes": 15,
+        "teach": "Se abordarán consistencia, prevención de errores, reconocimiento y eficiencia de uso. Se revisarán etiquetas repetidas, requisitos visibles y rutas habituales. El docente explicará cuándo una recomendación resulta pertinente para el caso.",
+        "demo": "Comparar una selección de servicio con etiquetas confusas y otra que conserva visibles las opciones elegidas.",
+        "result": "Relacionar cuatro criterios con decisiones concretas de la interfaz."
+      },
+      {
+        "title": "Principios 8 a 10: contenido, errores y ayuda",
+        "minutes": 15,
+        "teach": "Se analizarán la relevancia del contenido, la recuperación de errores y la ayuda. Se enseñará a explicar el problema y su solución en el lugar adecuado. El ejemplo conservará los datos válidos cuando un campo necesite corregirse.",
+        "demo": "Reescribir un mensaje de formulario y ubicar una explicación breve junto al campo que genera dudas.",
+        "result": "Proponer una respuesta que ayude a continuar la tarea."
+      },
+      {
+        "title": "Cómo registrar y priorizar hallazgos",
+        "minutes": 10,
+        "teach": "Se construirá una ficha con pantalla, acción, problema, criterio, consecuencia y mejora propuesta. Se utilizará una escala didáctica de impacto de 1 a 3. Se distinguirán una observación de revisión y un comportamiento comprobado con usuarios.",
+        "demo": "Completar una ficha y ordenar tres problemas del caso por su impacto en la solicitud.",
+        "result": "Documentar hallazgos útiles sin confundir una revisión heurística con una prueba con usuarios."
+      }
+    ],
+    "minutes": 55,
+    "task": "Revisar los diez criterios en el caso, registrar al menos cinco hallazgos y elegir tres prioridades.",
+    "check": "Cada hallazgo tiene ubicación, justificación y propuesta; los criterios no aplicables se señalan con un motivo."
+  },
+  {
+    "n": 5,
+    "title": "Aplica UX/UI a una página web",
+    "objective": "Transformar los hallazgos en una propuesta de página para escritorio y móvil.",
+    "lessons": [
+      {
+        "title": "Diseña una cabecera y una navegación claras",
+        "minutes": 10,
+        "teach": "Se combinarán objetivo, jerarquía y contenido en la parte inicial de la página. Se definirá qué se ofrece, a quién ayuda y cómo continuar. Se revisará que el menú use nombres comprensibles y que sus destinos correspondan con lo anunciado.",
+        "demo": "Rediseñar la cabecera del caso y anotar la función de cada elemento.",
+        "result": "Proponer una entrada que oriente al visitante y haga visible la acción principal."
+      },
+      {
+        "title": "Organiza secciones que ayuden a decidir",
+        "minutes": 10,
+        "teach": "Se desarrollarán los bloques de servicio, beneficios, funcionamiento, evidencias y preguntas frecuentes según las dudas del caso. Se enseñará a evitar repeticiones y a elegir recursos que aporten información. Las afirmaciones del negocio deberán poder sustentarse.",
+        "demo": "Reordenar la página y justificar qué necesita conocer la persona antes de llegar al contacto.",
+        "result": "Construir una secuencia de contenido comprensible y relevante."
+      },
+      {
+        "title": "Diseña formularios y sus estados",
+        "minutes": 10,
+        "teach": "Se seleccionarán los datos necesarios, se redactarán etiquetas y se indicará qué campos son obligatorios. Se definirán instrucciones, error, envío en curso y confirmación. La confirmación explicará el siguiente paso con un plazo realista definido por el negocio.",
+        "demo": "Dibujar el formulario y tres estados: incompleto, enviando y solicitud recibida.",
+        "result": "Especificar un contacto comprensible que permita detectar y corregir problemas."
+      },
+      {
+        "title": "Adapta la experiencia a móvil y accesibilidad",
+        "minutes": 10,
+        "teach": "Se reorganizarán los bloques para una pantalla estrecha, conservando contenido y funciones esenciales. Se revisarán lectura, separación de controles, orden de navegación y foco visible. Se explicará que el diseño debe indicar comportamientos que después habrá que verificar en la web implementada.",
+        "demo": "Comparar escritorio y móvil; anotar el orden de teclado y el comportamiento esperado del menú.",
+        "result": "Entregar una adaptación móvil con criterios claros para su implementación posterior."
+      }
+    ],
+    "minutes": 40,
+    "task": "Preparar la página mejorada en escritorio y móvil e incluir los estados del formulario.",
+    "check": "Las tres prioridades de la revisión se resuelven y el recorrido de contacto está definido en ambos formatos."
+  },
+  {
+    "n": 6,
+    "title": "Evalúa, mejora y presenta tu propuesta",
+    "objective": "Comprobar la comprensión del diseño y presentar cambios respaldados por evidencia.",
+    "lessons": [
+      {
+        "title": "Prepara una prueba de usabilidad sencilla",
+        "minutes": 10,
+        "teach": "Se redactará una tarea que describa una necesidad sin decir dónde hacer clic. Se prepararán el material y una guía de observación. Puede utilizarse un prototipo de papel o una secuencia de pantallas; el facilitador simulará los cambios cuando el participante lo indique.",
+        "demo": "Transformar “haz clic en Contacto” en una solicitud de asesoría basada en un contexto.",
+        "result": "Preparar una consigna y un recorrido que puedan probarse sin programar."
+      },
+      {
+        "title": "Observa la tarea y registra dificultades",
+        "minutes": 12,
+        "teach": "Se mostrará una prueba breve con una persona que represente el perfil de uso. Se registrarán finalización, ayudas necesarias, errores y dudas. Una demostración simulada se identificará como tal. Una sola sesión servirá para practicar y detectar indicios, sin representar a todos los usuarios.",
+        "demo": "Realizar una sesión breve y separar lo observado de las interpretaciones del evaluador.",
+        "result": "Documentar qué ocurrió durante la tarea y qué preguntas quedan abiertas."
+      },
+      {
+        "title": "Prioriza mejoras y revisa el diseño",
+        "minutes": 10,
+        "teach": "Se contrastarán los hallazgos heurísticos con la observación y se decidirán cambios según su impacto en la tarea. Se explicará que una diferencia visual no demuestra por sí sola una mejora. Se repetirá el paso afectado para comprobar si la dificultad detectada continúa.",
+        "demo": "Corregir un punto de confusión y comparar el comportamiento esperado antes y después.",
+        "result": "Vincular cada ajuste con una evidencia o una hipótesis explícita."
+      },
+      {
+        "title": "Presenta el antes, el después y la justificación",
+        "minutes": 8,
+        "teach": "Se organizará una entrega con objetivo, revisión, diseños y pruebas realizadas. Se enseñará a explicar una decisión mediante problema, criterio, cambio y comprobación. Se indicarán las limitaciones y los siguientes pasos para implementar y validar la página.",
+        "demo": "Presentar tres mejoras del caso y mostrar dónde se reflejan en escritorio y móvil.",
+        "result": "Defender una propuesta de mejora con argumentos claros y verificables."
+      }
+    ],
+    "minutes": 40,
+    "task": "Probar la tarea con otra persona, registrar resultados y presentar tres cambios justificados.",
+    "check": "La entrega diferencia lo observado, lo supuesto y lo pendiente de validar, e incluye al menos una iteración."
+  }
+]

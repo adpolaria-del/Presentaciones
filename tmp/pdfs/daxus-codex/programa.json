@@ -1,0 +1,182 @@
+[
+  {
+    "n": 1,
+    "title": "Fundamentos: entiende cada herramienta",
+    "min": 40,
+    "objective": "Comprender qué hace cada herramienta y cómo HTML, CSS y JavaScript forman un único bloque para la página.",
+    "lessons": [
+      [
+        "Qué es Codex y cómo te ayuda a crear una web",
+        10,
+        "Se explicará qué es un asistente de programación y cómo Codex transforma instrucciones en código. Se presentarán sus usos en el curso: crear una sección, cambiar su diseño, corregir un fallo y explicar un archivo. El alumno entenderá que debe definir el objetivo y revisar el resultado antes de publicarlo."
+      ],
+      [
+        "Qué son Git y GitHub y por qué guardar versiones",
+        10,
+        "Se explicará Git como sistema que registra cambios y GitHub como plataforma donde conservar el repositorio. Se introducirán los términos archivo, carpeta, repositorio, copia local y commit con un ejemplo. Se aclarará que el historial del código permite recuperar versiones, mientras que WordPress necesita además su propia copia de seguridad."
+      ],
+      [
+        "Hostinger, dominio, WordPress y Elementor: qué hace cada uno",
+        10,
+        "Se distinguirán el hosting, que aloja el sitio, y el dominio, que permite localizarlo. Se explicará Hostinger como proveedor y hPanel como su panel de gestión; WordPress como sistema para administrar la web; y Elementor como editor que se instala dentro de WordPress. Se presentará la relación entre estas piezas."
+      ],
+      [
+        "HTML, CSS y JavaScript: tres funciones, un mismo código",
+        10,
+        "Se explicará HTML como estructura y contenido, CSS como diseño y distribución, y JavaScript como comportamiento e interacción. Los tres se mostrarán dentro del mismo bloque: estilos en una etiqueta style, contenido HTML y lógica en una etiqueta script. Ese será el formato de trabajo que después se pegará en Elementor."
+      ]
+    ],
+    "exercise": "Identificar en el ejemplo dónde están HTML, CSS y JavaScript, y explicar el recorrido desde la petición a Codex hasta la publicación en WordPress alojado en Hostinger.",
+    "result": "El alumno distingue las funciones de las herramientas y entiende que entregará un único bloque con contenido, estilos e interacciones."
+  },
+  {
+    "n": 2,
+    "title": "Prepara WordPress en Hostinger",
+    "min": 40,
+    "objective": "Crear un WordPress de práctica en Hostinger, reconocer su panel y preparar Elementor para recibir el código.",
+    "lessons": [
+      [
+        "Prepara el alojamiento y la dirección de práctica",
+        10,
+        "Se enseñará a localizar un plan de alojamiento activo compatible con WordPress dentro de hPanel y el espacio donde se creará el sitio. Se explicará qué datos conviene tener listos y cómo elegir una dirección disponible para practicar. Se usará un dominio temporal cuando corresponda para evitar depender de la conexión de un dominio externo."
+      ],
+      [
+        "Instala WordPress y entra a su administración",
+        12,
+        "Se demostrará el asistente de instalación de WordPress en Hostinger: selección del sitio, datos de administración y dirección de práctica. Se elegirá una instalación inicial sencilla. Después se accederá al panel de WordPress y se explicará la diferencia entre visitar la página pública y entrar como administrador."
+      ],
+      [
+        "Conoce WordPress e instala Elementor",
+        10,
+        "Se explicará para qué sirven las secciones Páginas, Medios, Apariencia y Plugins. Se distinguirá un tema, que define una base visual del sitio, de un plugin, que añade funciones. Se instalará y activará Elementor, mostrando dónde se abre el editor y cómo localizar el widget HTML que se utilizará después."
+      ],
+      [
+        "Crea la página de pruebas y prepara una copia",
+        8,
+        "Se creará una página en borrador y se elegirá una plantilla que encaje con el diseño previsto. Se explicará cómo conservar o retirar cabecera y pie del tema para evitar duplicarlos. También se localizará la opción de copia de seguridad disponible en el entorno y qué debe conservarse antes de modificar el sitio."
+      ]
+    ],
+    "exercise": "Crear el sitio de práctica siguiendo la instalación guiada, entrar a WordPress, activar Elementor y dejar una página en borrador preparada para el proyecto.",
+    "result": "El alumno accede al sitio y a su administración, encuentra el widget HTML y reconoce cómo disponer de una copia antes de hacer cambios."
+  },
+  {
+    "n": 3,
+    "title": "Configura Codex y conéctalo con GitHub",
+    "min": 35,
+    "objective": "Preparar el proyecto local, relacionarlo con un repositorio y guardar una primera versión del bloque de código.",
+    "lessons": [
+      [
+        "Accede a Codex y prueba tu carpeta de trabajo",
+        8,
+        "Se mostrará cómo acceder a Codex desde la aplicación elegida para el curso, iniciar sesión y seleccionar una carpeta. Se explicará qué significa dar acceso a los archivos y revisar las acciones propuestas. El alumno hará una primera petición pequeña para verificar que el asistente trabaja en el lugar correcto."
+      ],
+      [
+        "Crea el repositorio de GitHub y clónalo",
+        10,
+        "Se creará un repositorio con un nombre reconocible y una visibilidad elegida conscientemente. Se iniciará sesión en GitHub Desktop y se clonará, obteniendo una copia local. Se explicará cómo distinguir la ubicación del computador de la dirección remota de GitHub y comprobar que ambas corresponden al mismo proyecto."
+      ],
+      [
+        "Abre el repositorio en Codex y define el formato",
+        9,
+        "Se abrirá en Codex la carpeta clonada y se trasladará allí el archivo de práctica. Se creará un AGENTS.md breve con las reglas del proyecto: entregar un único bloque con HTML, CSS y JavaScript integrados, usar estilos propios y conservar las partes que funcionan. Se distinguirán el archivo de código, el brief y las imágenes de apoyo."
+      ],
+      [
+        "Revisa, guarda y sincroniza tu primera versión",
+        8,
+        "Se practicará el ciclo cambiar, revisar, guardar un commit y sincronizar con GitHub. Se leerá una comparación sencilla para saber qué se añadió o eliminó y se escribirá un mensaje que describa el cambio. Se comprobará que guardar el archivo en el computador y enviarlo a GitHub son pasos diferentes."
+      ]
+    ],
+    "exercise": "Clonar el repositorio, abrirlo en Codex, definir la regla de código integrado y guardar un primer cambio en el archivo HTML mediante un commit sincronizado.",
+    "result": "La copia local y GitHub contienen el cambio, y el archivo conserva su contenido, sus estilos y su lógica juntos."
+  },
+  {
+    "n": 4,
+    "title": "Diseña y construye tu página en un solo código",
+    "min": 55,
+    "objective": "Crear una landing de servicios con ayuda de Codex, integrando contenido, diseño e interacciones desde el primer bloque.",
+    "lessons": [
+      [
+        "Define el brief, el diseño y la instrucción para Codex",
+        10,
+        "Se completará una ficha breve con público, servicio, objetivo, textos, secciones y acción principal. Se elegirá una referencia de colores y distribución. Con esa información se redactará un prompt que indique el resultado esperado, el comportamiento móvil y la entrega en un bloque para Elementor con HTML, CSS y JavaScript integrados."
+      ],
+      [
+        "Genera la cabecera y el bloque principal",
+        15,
+        "Se construirá la presentación inicial de la página con título, descripción, imagen y botón. Se localizará el HTML del contenido y el CSS incluido en el mismo archivo, junto con el espacio para el JavaScript cuando se necesite. Se abrirá una vista previa y se solicitará un ajuste concreto de diseño."
+      ],
+      [
+        "Completa servicios, preguntas frecuentes y contacto",
+        15,
+        "Se añadirán beneficios y servicios conservando los estilos establecidos. Después se incorporarán enlaces internos, preguntas desplegables y un botón de contacto. Se mostrará cómo el JavaScript del mismo bloque aporta comportamiento a los elementos HTML y cómo el CSS mantiene una apariencia coherente. El contacto será un enlace funcional."
+      ],
+      [
+        "Ajusta móvil y revisa el bloque para Elementor",
+        15,
+        "Se revisará el diseño en escritorio, tablet y móvil para corregir columnas, imágenes y desbordamientos. Se limitarán los estilos a un contenedor propio. Se distinguirá el bloque para Elementor del documento de vista previa, evitando copiar etiquetas generales como html, head o body dentro del widget. HTML, style y script permanecerán juntos."
+      ]
+    ],
+    "exercise": "Completar la landing del negocio de ejemplo, corregir su adaptación móvil y guardar el archivo del bloque listo para Elementor en el repositorio.",
+    "result": "El código contiene HTML, CSS y JavaScript integrados; los enlaces y la interacción funcionan y la página se visualiza en tres tamaños de pantalla."
+  },
+  {
+    "n": 5,
+    "title": "Integra y publica tu página en WordPress",
+    "min": 45,
+    "objective": "Insertar el bloque completo en Elementor, ajustar sus recursos y validar la página publicada en el sitio de Hostinger.",
+    "lessons": [
+      [
+        "Pega el código completo en el widget HTML",
+        12,
+        "Se retomará la página preparada en el módulo 2 y se insertará un widget HTML. Se copiará el bloque completo, incluidos el contenido, style y script. Se explicará cómo reconocer el inicio y el final del código y cómo comprobar que no falta ninguna parte al trasladarlo desde el archivo hacia Elementor."
+      ],
+      [
+        "Prepara imágenes, enlaces y recursos del sitio",
+        13,
+        "Se subirán las imágenes del proyecto a la biblioteca de medios y se reemplazarán las rutas del computador por sus URLs de WordPress. Se revisarán enlaces internos y destino de contacto. Se explicará que unificar HTML, CSS y JavaScript no significa incrustar todos los archivos multimedia dentro del código."
+      ],
+      [
+        "Resuelve diferencias de diseño e integración",
+        10,
+        "Se identificarán diferencias entre la vista previa y WordPress debidas a anchos, espacios del editor, estilos del tema o caché. Se enseñará a revisar una causa a la vez y pedir a Codex una corrección limitada al contenedor del bloque. Se probará de nuevo el conjunto tras sustituir el código."
+      ],
+      [
+        "Publica y comprueba la experiencia del visitante",
+        10,
+        "Se revisarán título, dirección de la página y visualización antes de publicar. Después se abrirá la URL real sin sesión de administración para comprobar recursos, navegación, interacción y contacto. Se recordará que la dirección de práctica debe estar disponible y que guardar una versión en GitHub no publica automáticamente el widget."
+      ]
+    ],
+    "exercise": "Pegar el bloque en Elementor, corregir las rutas de recursos y publicar en el WordPress de práctica creado en Hostinger. Guardar capturas de escritorio y móvil.",
+    "result": "La URL carga sin sesión, las imágenes se muestran y funcionan la navegación, el contacto y la interacción del bloque."
+  },
+  {
+    "n": 6,
+    "title": "Corrige, actualiza y conserva tu trabajo",
+    "min": 25,
+    "objective": "Aplicar una revisión básica y mantener el bloque publicado con apoyo de Codex y el historial de GitHub.",
+    "lessons": [
+      [
+        "Revisa calidad visual, accesibilidad y estructura básica",
+        7,
+        "Se aplicará una lista breve de comprobación: lectura del contenido, orden de encabezados, descripción de imágenes, contraste y acceso con teclado. Se revisará también el tamaño de los recursos. El alumno identificará una mejora concreta que pueda resolverse en el bloque sin cambiar el diseño general del sitio."
+      ],
+      [
+        "Describe un fallo y corrígelo con Codex",
+        7,
+        "Se enseñará a comunicar qué debería pasar, qué pasa realmente y cómo reproducir el problema. Se utilizará una captura o un mensaje de error cuando aporte información. Se pedirá una corrección puntual que conserve el bloque integrado y se revisará el cambio antes de llevarlo otra vez a WordPress."
+      ],
+      [
+        "Guarda una mejora y recupera el bloque anterior",
+        6,
+        "Se repasará el ciclo de edición local, vista previa, commit, sincronización y actualización del widget. Se mostrará cómo recuperar el contenido de una versión anterior y guardarlo como un nuevo cambio. Se aclarará que recuperar el archivo en GitHub no sustituye por sí solo el código que está publicado en Elementor."
+      ],
+      [
+        "Entrega tu proyecto y repite el proceso",
+        5,
+        "Se organizará la entrega con URL, bloque final, historial y README con las instrucciones de actualización. Se explicará cómo iniciar otra página a partir del mismo procedimiento cambiando brief, contenido e identidad visual. Se revisará que no queden enlaces ni datos de ejemplo ajenos al nuevo negocio."
+      ]
+    ],
+    "exercise": "Revisar la página, resolver una incidencia y conservar una versión final del bloque. Entregar la URL, el repositorio y una guía breve de actualización y recuperación.",
+    "result": "El archivo final coincide con el bloque publicado y otra persona puede entender cómo se construyó y cómo se actualiza."
+  }
+]

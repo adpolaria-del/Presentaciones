@@ -1,0 +1,46 @@
+FICHA 1 · CONTEXTO
+Persona / necesidad:
+Objetivo del negocio:
+Tarea principal:
+Datos conocidos del brief:
+Supuestos:
+Preguntas pendientes:
+Criterio de finalización:
+
+FICHA 2 · RECORRIDO
+Paso | Pregunta de la persona | Acción | Respuesta esperada | Dificultad
+Comprender |
+Revisar alcance |
+Solicitar |
+Confirmar |
+
+FICHA 3 · REVISIÓN HEURÍSTICA
+Pantalla o sección:
+Acción revisada:
+Problema concreto:
+Criterio relacionado:
+Evidencia (inspección / observación / hipótesis):
+Impacto estimado (1 menor / 2 relevante / 3 bloquea):
+Justificación:
+Cambio propuesto:
+Cómo comprobarlo:
+
+FICHA 4 · PRUEBA
+Tipo: real / simulación (indicar)
+Participante anónimo y relación con el perfil:
+Permiso para grabación y uso del material, si aplica:
+Tarea sin pistas:
+Datos ficticios:
+Acciones y frases observadas:
+Ayudas que ofrecí:
+Finalización: sin ayuda / con ayuda / no completada
+Interpretación:
+Cambio propuesto y siguiente comprobación:
+
+FICHA 5 · PRESENTACIÓN
+Necesidad y tarea:
+Cambio 1: problema / criterio / decisión / evidencia
+Cambio 2: problema / criterio / decisión / evidencia
+Cambio 3: problema / criterio / decisión / evidencia
+Qué comprobé:
+Qué sigue pendiente:

@@ -1,0 +1,230 @@
+[
+  {
+    "n": 1,
+    "title": "Fundamentos, acceso y configuración inicial",
+    "objective": "Entender qué es GHL, acceder a la cuenta correcta y preparar el entorno de un negocio.",
+    "minutes": 30,
+    "lessons": [
+      {
+        "title": "Qué es GoHighLevel y qué puedes hacer con él",
+        "minutes": 7,
+        "teach": "Se explicará qué es un CRM y cómo GHL reúne datos de contactos, conversaciones, oportunidades y automatizaciones. Se presentarán ejemplos de captación, atención y seguimiento. El alumno distinguirá el registro de una persona, el intercambio de mensajes y el proceso comercial que se puede automatizar.",
+        "demo": "Se recorrerá el caso de una persona que pide información, aparece en el CRM y queda asignada a un responsable.",
+        "result": "Comprender la función de GHL y el resultado concreto que se construirá en el curso."
+      },
+      {
+        "title": "Alta, acceso y puesta en marcha de la cuenta",
+        "minutes": 8,
+        "teach": "Se aclarará que GHL se utiliza como servicio en la nube: la instalación del curso consiste en activar y configurar el acceso. Se mostrarán las rutas de alta o invitación y la diferencia entre vista de agencia y subcuenta de negocio. Se creará o seleccionará la subcuenta según los permisos disponibles.",
+        "demo": "El docente accederá con una cuenta de práctica, identificará el negocio correcto y mostrará dónde se cambia de subcuenta.",
+        "result": "Entrar al espacio correcto sin confundir los ajustes de agencia con los del negocio."
+      },
+      {
+        "title": "Credenciales, usuarios y permisos",
+        "minutes": 8,
+        "teach": "Se distinguirán el usuario y la contraseña de GHL, las invitaciones al equipo y las autorizaciones de los canales conectados. Se revisarán recuperación de acceso, verificación en dos pasos y permisos por función. Las conexiones del proyecto se realizarán con autorizaciones nativas, sin copiar claves de API ni compartir contraseñas.",
+        "demo": "Se invitará a un usuario de prueba y se revisará su acceso a contactos, conversaciones y automatizaciones.",
+        "result": "Preparar accesos individuales y reconocer cuándo una función no aparece por falta de permisos."
+      },
+      {
+        "title": "Configura el negocio y reconoce el menú",
+        "minutes": 7,
+        "teach": "Se revisarán nombre del negocio, zona horaria, datos de contacto y configuración del perfil. Después se ubicarán Dashboard, Contacts, Conversations, Opportunities, Calendars, Sites, Marketing, Automation y Settings, explicando qué problema resuelve cada sección y cuáles se usarán en el proyecto.",
+        "demo": "El docente completará los datos básicos y localizará las pantallas que acompañarán todo el recorrido.",
+        "result": "Orientarse dentro de GHL y reconocer las áreas principales antes de construir automatizaciones."
+      }
+    ],
+    "task": "Entrar a una subcuenta de práctica, revisar sus datos y preparar un acceso de equipo con los permisos necesarios.",
+    "check": "El alumno identifica el negocio, explica las áreas principales y puede abrir Contacts, Conversations y Automation."
+  },
+  {
+    "n": 2,
+    "title": "Organiza el CRM y conoce sus herramientas",
+    "objective": "Preparar los datos y el seguimiento comercial que utilizará la automatización.",
+    "minutes": 35,
+    "lessons": [
+      {
+        "title": "Contactos, campos y etiquetas",
+        "minutes": 10,
+        "teach": "Se enseñará a crear y revisar un contacto, distinguir los datos básicos de un campo personalizado y utilizar etiquetas para clasificar intereses u origen. Se explicará qué hacer cuando falta un teléfono o un correo y por qué no debe asumirse que dos perfiles sociales pertenecen a la misma persona.",
+        "demo": "Se creará un contacto de prueba, se añadirá una nota y se aplicarán etiquetas de interés y canal.",
+        "result": "Guardar información útil y diferenciar identificación, clasificación y observaciones del contacto."
+      },
+      {
+        "title": "Conversations: atender desde una sola bandeja",
+        "minutes": 10,
+        "teach": "Se mostrará cómo localizar una conversación, reconocer su canal, leer el historial y responder desde GHL. Se revisarán responsable, estado y preferencias de contacto. El alumno aprenderá a verificar si un mensaje se envió y a distinguir una respuesta manual de una generada por una automatización.",
+        "demo": "El docente atenderá un mensaje de prueba y comprobará su recepción desde la cuenta que lo envió.",
+        "result": "Gestionar una consulta y verificar el intercambio de mensajes en ambos sentidos."
+      },
+      {
+        "title": "Oportunidades, etapas y responsables",
+        "minutes": 8,
+        "teach": "Se explicará un pipeline como tablero de seguimiento comercial y una oportunidad como un posible negocio asociado a un contacto. Se prepararán tres etapas sencillas: Nuevo interés, En atención y Cerrado. Se revisarán asignación y tareas para que una respuesta automática termine en una acción útil del equipo.",
+        "demo": "Se creará una oportunidad de ejemplo, se moverá de etapa y se asignará una tarea de contacto.",
+        "result": "Organizar las consultas recibidas sin confundir un contacto con una oportunidad comercial."
+      },
+      {
+        "title": "Formularios, calendarios, sitios y marketing",
+        "minutes": 7,
+        "teach": "Se hará un recorrido introductorio por formularios para captar datos, calendarios para reservas, sitios y funnels para presentar ofertas, Social Planner para contenido y reportes para seguimiento. Se explicarán usos posibles de correo y pagos mediante sus conexiones. El propósito será elegir herramientas, sin desarrollar una web ni un sistema de cobros.",
+        "demo": "El docente abrirá ejemplos preparados de formulario, calendario y publicación para relacionarlos con un caso de negocio.",
+        "result": "Saber qué más puede hacerse en GHL y dónde continuar después del proyecto de mensajería."
+      }
+    ],
+    "task": "Preparar un contacto de prueba, las etiquetas del proyecto, el pipeline y un responsable de atención.",
+    "check": "Los datos son comprensibles, el contacto tiene una clasificación y existe una etapa donde registrar el interés."
+  },
+  {
+    "n": 3,
+    "title": "Conecta redes sociales y WhatsApp",
+    "objective": "Autorizar los canales necesarios y verificar que la mensajería funciona antes de automatizar.",
+    "minutes": 50,
+    "lessons": [
+      {
+        "title": "Conecta Facebook e Instagram para mensajes",
+        "minutes": 12,
+        "teach": "Se identificarán la página de Facebook, la cuenta profesional de Instagram asociada y el acceso de Meta con permisos suficientes. Se realizará la conexión desde Integrations y se revisará la autorización de mensajes. Se comprobará la página seleccionada y el acceso de las herramientas conectadas al canal de Instagram.",
+        "demo": "Se completará la conexión en una cuenta preparada y se enviará un mensaje desde un perfil distinto para comprobarlo en Conversations.",
+        "result": "Verificar mensajes entrantes y respuestas de prueba en los canales sociales conectados."
+      },
+      {
+        "title": "Social Planner y el mapa de integraciones",
+        "minutes": 10,
+        "teach": "Se distinguirá conectar un canal para publicar contenido de conectarlo para gestionar conversaciones. En Social Planner se enseñará a preparar un borrador y programar una publicación. Después se ubicarán otras conexiones, como calendario y correo, para entender qué credenciales requieren y qué función habilitan.",
+        "demo": "Se preparará una publicación de prueba con la invitación a escribir INFO por mensaje privado y se comprobará el canal de publicación.",
+        "result": "Diferenciar contenido programado y mensajes automatizados, y localizar las conexiones nativas."
+      },
+      {
+        "title": "Activa y conecta WhatsApp en la subcuenta",
+        "minutes": 15,
+        "teach": "Se explicarán la habilitación de WhatsApp en GHL, la cuenta de negocio de Meta y el número que enviará y recibirá mensajes. Se mostrará el asistente de conexión usando un número de práctica. Si ya se utiliza WhatsApp Business, se explicará la opción de coexistencia cuando sea elegible, sin prometer compatibilidad universal.",
+        "demo": "El docente mostrará la autorización y los pasos de verificación aplicables a su número, y comprobará un intercambio desde Conversations.",
+        "result": "Identificar los requisitos y comprobar que WhatsApp recibe y envía mensajes desde GHL."
+      },
+      {
+        "title": "Ventanas de respuesta, plantillas y preferencias",
+        "minutes": 13,
+        "teach": "Se explicará la ventana de atención de WhatsApp de 24 horas desde el último mensaje del usuario y cuándo se necesita una plantilla aprobada. Se mostrará cómo preparar una plantilla y consultar su estado. Se distinguirá responder una consulta de contar con autorización para futuras campañas, respetando bajas y restricciones de contacto.",
+        "demo": "Se comparará un mensaje de respuesta con una plantilla preparada y se localizarán sus estados y las preferencias del contacto.",
+        "result": "Elegir el tipo de mensaje adecuado y reconocer por qué un envío puede no estar permitido."
+      }
+    ],
+    "task": "Conectar y probar los canales disponibles, identificar su número remitente y documentar qué permisos o activaciones faltan.",
+    "check": "Hay evidencia de entrada y salida por canal. Una conexión pendiente se identifica como tal y no se presenta como funcional."
+  },
+  {
+    "n": 4,
+    "title": "Fundamentos de automatización en GHL",
+    "objective": "Entender el constructor visual y definir cuándo debe responder el sistema y cuándo debe detenerse.",
+    "minutes": 35,
+    "lessons": [
+      {
+        "title": "Disparadores, filtros, acciones y condiciones",
+        "minutes": 8,
+        "teach": "Se explicará un workflow como una secuencia de pasos. El disparador define qué lo inicia; un filtro limita los casos; una acción ejecuta una tarea; y una condición decide el camino. Se recorrerán ejemplos de mensaje recibido, etiqueta aplicada, aviso interno y comprobación de estado.",
+        "demo": "El docente dibujará el recorrido de una consulta y lo relacionará con los bloques visibles del constructor de GHL.",
+        "result": "Leer una automatización sencilla y explicar por qué se ejecuta cada paso."
+      },
+      {
+        "title": "Define la entrada por canal y palabra clave",
+        "minutes": 9,
+        "teach": "Se utilizará Customer Replied para reconocer mensajes entrantes y se filtrará por canal y coincidencia de texto. El proyecto usará INFO como solicitud explícita en redes. Se mostrará por qué filtrar evita responder a cualquier mensaje y cómo dejar otros textos disponibles para la atención manual.",
+        "demo": "Se preparará un disparador en borrador y se contrastarán un mensaje que cumple la condición y otro que no.",
+        "result": "Precisar quién entra en cada flujo y qué mensajes quedan fuera del recorrido automático."
+      },
+      {
+        "title": "Prepara respuestas, etiquetas y avisos internos",
+        "minutes": 10,
+        "teach": "Se redactará una respuesta breve con información útil y una siguiente acción clara. Se explicará el uso de etiquetas, asignación y notificaciones para el equipo. Se mostrará cómo revisar los datos antes de personalizar un mensaje, para no enviar saludos vacíos o información de otro contacto.",
+        "demo": "El docente configurará bloques de respuesta y de organización interna en un borrador, revisando sus destinatarios.",
+        "result": "Distinguir las acciones dirigidas al cliente de las que sirven para organizar la atención del equipo."
+      },
+      {
+        "title": "Reentrada, exclusiones y publicación",
+        "minutes": 8,
+        "teach": "Se revisará si un contacto puede volver a entrar, cómo excluir los casos ya atendidos y cómo detener un flujo. Para esta demostración se limitará la entrada repetida por contacto en cada workflow. Se enseñará a comprobar etiquetas de control, restricciones de contacto y diferencias entre guardar un borrador y publicarlo.",
+        "demo": "Se revisará la configuración del borrador y se añadirá una salida para contactos ya atendidos o que no deben recibir el mensaje.",
+        "result": "Preparar un flujo con límites claros y reducir respuestas repetidas durante la prueba."
+      }
+    ],
+    "task": "Definir en un borrador el evento de entrada, los filtros, el mensaje, las acciones internas y las condiciones de salida.",
+    "check": "El alumno puede explicar qué dispara el flujo, qué lo detiene y por qué no debe responder a cualquier mensaje."
+  },
+  {
+    "n": 5,
+    "title": "Proyecto: de redes sociales a WhatsApp",
+    "objective": "Construir una automatización de atención con tres workflows breves, todos dentro de GHL.",
+    "minutes": 60,
+    "lessons": [
+      {
+        "title": "Instagram: responde INFO y ofrece continuar",
+        "minutes": 15,
+        "teach": "Se creará el workflow de Instagram con entrada por mensaje privado INFO. Se revisarán exclusiones, se añadirá una etiqueta de control y se enviará la respuesta mediante la acción del canal. El mensaje ofrecerá un enlace al WhatsApp del negocio con el texto INFO_IG preparado, sin iniciar por sí mismo una conversación allí.",
+        "demo": "El docente configurará la respuesta a un DM y verificará que el enlace abre el chat correcto con el texto previsto.",
+        "result": "Tener un flujo de Instagram que responda a una solicitud concreta y permita continuar voluntariamente en WhatsApp."
+      },
+      {
+        "title": "Facebook: adapta y comprueba el mismo recorrido",
+        "minutes": 15,
+        "teach": "Se reproducirá la lógica en un workflow de Facebook Messenger, ajustando disparador, acción, etiqueta y texto del enlace a INFO_FB. Se explicará por qué copiar un flujo exige revisar el canal y cada destinatario. La automatización final tendrá una entrada independiente por red para facilitar su comprensión y revisión.",
+        "demo": "Se enviará INFO desde un perfil de prueba de Facebook y se revisará que la respuesta proviene de la página correcta.",
+        "result": "Contar con la misma experiencia de atención para Facebook, sin reutilizar por error acciones de Instagram."
+      },
+      {
+        "title": "WhatsApp: responde cuando la persona escribe",
+        "minutes": 15,
+        "teach": "Se creará el workflow de WhatsApp con entradas por coincidencia exacta de INFO, INFO_IG o INFO_FB. Se comprobará la ventana de atención y se responderá con información breve si está abierta. Si está cerrada, el proyecto generará un aviso interno y finalizará, sin enviar texto libre. Se explicará qué cambia al usar una plantilla.",
+        "demo": "El usuario de prueba abrirá el enlace, enviará el texto y recibirá la respuesta desde el número conectado.",
+        "result": "Completar el paso a WhatsApp a partir de un mensaje real del usuario, no solo de un clic."
+      },
+      {
+        "title": "Organiza el interés y entrega la atención al equipo",
+        "minutes": 15,
+        "teach": "Se añadirá la clasificación del origen según el texto recibido, la asignación del contacto y un aviso interno. En la ruta de WhatsApp se registrará una oportunidad sin repetirla si ya existe para ese contacto y pipeline. Se revisará el caso de identidades separadas entre redes y teléfono antes de unir registros.",
+        "demo": "El docente comprobará el contacto, el origen, la oportunidad y la notificación, y continuará la consulta manualmente desde Conversations.",
+        "result": "Cerrar la automatización con una consulta organizada y un responsable que pueda atenderla."
+      }
+    ],
+    "task": "Completar los tres workflows del proyecto y recorrer Instagram o Facebook, enlace a WhatsApp, mensaje enviado y recepción por el responsable.",
+    "check": "Cada canal usa su entrada correcta; la respuesta de WhatsApp requiere un mensaje real y el equipo recibe la consulta organizada."
+  },
+  {
+    "n": 6,
+    "title": "Prueba, publica y mantén la automatización",
+    "objective": "Demostrar el funcionamiento y dejar un procedimiento sencillo de revisión y mantenimiento.",
+    "minutes": 30,
+    "lessons": [
+      {
+        "title": "Prueba el recorrido completo con cuentas reales de ensayo",
+        "minutes": 10,
+        "teach": "Se preparará una matriz de pruebas: INFO por cada red, mensaje sin coincidencia, enlace abierto sin envío, mensaje enviado por WhatsApp y segundo intento del mismo contacto. Se comparará el resultado esperado con Conversations y el historial de ejecución. Las pruebas usarán perfiles y teléfonos de ensayo distintos del negocio.",
+        "demo": "El docente ejecutará el recorrido y registrará qué mensaje se recibió y qué acciones internas quedaron realizadas.",
+        "result": "Demostrar el funcionamiento con evidencia y detectar pasos que solo parecen configurados."
+      },
+      {
+        "title": "Diagnostica conexiones y envíos fallidos",
+        "minutes": 8,
+        "teach": "Se enseñará a leer el historial para localizar el punto donde no se cumplió una condición o falló una acción. Se revisarán conexión, permisos, canal, remitente y ventana de atención antes de modificar el flujo. Se evitará reenviar todo automáticamente si eso puede duplicar mensajes o tareas ya completadas.",
+        "demo": "El docente analizará una incidencia controlada y repetirá únicamente la comprobación necesaria para validar su corrección.",
+        "result": "Distinguir un error de conexión, un filtro no cumplido y un problema de envío."
+      },
+      {
+        "title": "Publica y define una rutina de revisión",
+        "minutes": 7,
+        "teach": "Se revisarán nombres, entradas, exclusiones y contactos de prueba antes de publicar. Se enseñará a activar o pausar los workflows y a observar sus primeras ejecuciones. Se definirá una revisión sencilla de mensajes recibidos, respuestas realizadas y consultas asignadas para comprobar la utilidad del sistema.",
+        "demo": "El docente activará los flujos de práctica, confirmará su estado y mostrará cómo detenerlos si detecta un comportamiento incorrecto.",
+        "result": "Poner en marcha el proyecto con una rutina básica de supervisión."
+      },
+      {
+        "title": "Documenta y entrega tu proyecto",
+        "minutes": 5,
+        "teach": "Se preparará una guía con los tres workflows, sus condiciones, etiquetas, responsable y forma de pausar o volver a probar. Se registrarán también los canales conectados y las activaciones pendientes. La entrega contendrá evidencias del recorrido y nunca contraseñas, códigos de verificación ni claves de acceso.",
+        "demo": "El docente recorrerá una ficha de entrega y señalará dónde actualizar mensajes o cambiar al responsable.",
+        "result": "Entregar una automatización que otra persona pueda comprender, revisar y mantener."
+      }
+    ],
+    "task": "Completar la matriz de pruebas, corregir incidencias y entregar los workflows con su guía operativa.",
+    "check": "Hay pruebas positivas y negativas, control de reentrada, evidencia de respuesta y un procedimiento para pausar el sistema."
+  }
+]
